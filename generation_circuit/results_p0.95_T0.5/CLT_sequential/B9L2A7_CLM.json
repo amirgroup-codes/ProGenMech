@@ -1,0 +1,80 @@
+{
+  "entry": "B9L2A7",
+  "entry_name": "RL28_THERP",
+  "type": "CLM",
+  "prompt": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICT",
+  "k": 32,
+  "original_sequence": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICTRCLRTLYKEAREA",
+  "original_ll": -2.1165146827697754,
+  "original_perplexity": 8.30215072631836,
+  "progen3_sequence": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICTRCLRSGKVERA",
+  "progen3_ll": -0.4070621728897095,
+  "progen3_perplexity": 1.5023975372314453,
+  "max_sequence": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICTRCGKAGHVVAA",
+  "max_ll": -2.2961931228637695,
+  "max_perplexity": 9.936284065246582,
+  "max_kl": 1.0568835735321045,
+  "max_nmse": 0.3136180639266968,
+  "base_sequence": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICTDSKKKKKSVEAM",
+  "base_ll": -4.060149669647217,
+  "base_perplexity": 57.98299026489258,
+  "base_kl": 1.5399229526519775,
+  "base_nmse": 0.8388171792030334,
+  "recovered_sequence": "MAMCELCGKKPMFGHNVSHSNRKTNRKFKPNVQRVTVILNGVPKRMRICTRGKAARKKKKK",
+  "recovered_ll": -3.061387777328491,
+  "recovered_perplexity": 21.357175827026367,
+  "recovered_kl": 1.3925354480743408,
+  "recovered_nmse": 0.7017989158630371,
+  "nodes": {
+    "9": [
+      506,
+      1195,
+      1348,
+      1795,
+      1957,
+      2227,
+      3540,
+      3624,
+      3821,
+      4069,
+      4168,
+      4590
+    ],
+    "0": [
+      376,
+      694,
+      2299
+    ],
+    "5": [
+      1140,
+      1649,
+      2164
+    ],
+    "6": [
+      3850,
+      4103
+    ],
+    "3": [
+      4300
+    ],
+    "4": [
+      1987,
+      2945,
+      3500,
+      3725
+    ],
+    "7": [
+      1581,
+      1973,
+      2979
+    ],
+    "2": [
+      569,
+      3466,
+      4268
+    ],
+    "1": [
+      1292
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "entry": "Q54FX7",
+  "entry_name": "Y9576_DICDI",
+  "type": "GLM_1",
+  "prompt": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSIMLISLKITNSPNSNSRGSSSSSSTSKSSSKTSFTQ[GLM]39-59-20",
+  "k": 64,
+  "original_sequence": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSIMLISLKITNSPNSNSRGSSSSSSTSKSSSKTSFTQ",
+  "original_ll": -2.7065646648406982,
+  "original_perplexity": 14.97773265838623,
+  "progen3_sequence": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSIRINGGSNQSVQPCLNVLLNLSSSTSKSSSKTSFTQ",
+  "progen3_ll": -2.8354129791259766,
+  "progen3_perplexity": 17.03743553161621,
+  "max_sequence": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSIKSSYTTNKGSSNGNVNNNATSSSTSKSSSKTSFTQ",
+  "max_ll": -2.499415397644043,
+  "max_perplexity": 12.175374984741211,
+  "max_kl": 0.4238134026527405,
+  "max_nmse": 1.230687141418457,
+  "base_sequence": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSISSSTSKSSSKTSFTQ",
+  "base_ll": -2.3915867805480957,
+  "base_perplexity": 10.930825233459473,
+  "base_kl": 6.139793395996094,
+  "base_nmse": 6.10724401473999,
+  "recovered_sequence": "MNGPRYAHSNYGGNKGGPSNSTSGVFAGDIRCQVSNKSICCCCCCCCCCCCCCCCCCCCSSSTSKSSSKTSFTQ",
+  "recovered_ll": -1.6669492721557617,
+  "recovered_perplexity": 5.295986175537109,
+  "recovered_kl": 0.48817896842956543,
+  "recovered_nmse": 0.17880631983280182,
+  "nodes": {
+    "9": [
+      407,
+      957,
+      1184,
+      1832,
+      1844,
+      1957,
+      2975,
+      3199,
+      3382,
+      3540,
+      3624,
+      3821
+    ],
+    "0": [
+      189,
+      200,
+      276,
+      401,
+      574,
+      795,
+      1178,
+      1706,
+      1751,
+      1821,
+      1921,
+      2011,
+      2117,
+      2224,
+      2445,
+      2511,
+      2594,
+      2722,
+      2782,
+      2943,
+      2984,
+      2991,
+      3171,
+      3182,
+      3211,
+      3588,
+      3648,
+      3922,
+      3963,
+      4000,
+      4050,
+      4116,
+      4129,
+      4426,
+      4488,
+      4560,
+      4596
+    ],
+    "3": [
+      545,
+      1568,
+      3440
+    ],
+    "2": [
+      2481,
+      2866,
+      3913
+    ],
+    "1": [
+      2151
+    ],
+    "6": [
+      947
+    ],
+    "8": [
+      372,
+      2151,
+      2917,
+      4471
+    ],
+    "4": [
+      3206,
+      4584
+    ],
+    "7": [
+      4055
+    ]
+  }
+}

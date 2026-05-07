@@ -1,0 +1,110 @@
+{
+  "entry": "Q3LHN2",
+  "entry_name": "KR192_HUMAN",
+  "type": "GLM_1",
+  "prompt": "MCYGYGCGCGSFCRLGYGCGYEGCRYGCGHRGCGDGCCCPSCYRRYRFTGFY[GLM]21-34-13",
+  "k": 64,
+  "original_sequence": "MCYGYGCGCGSFCRLGYGCGYEGCRYGCGHRGCGDGCCCPSCYRRYRFTGFY",
+  "original_ll": -1.990625262260437,
+  "original_perplexity": 7.3201093673706055,
+  "progen3_sequence": "MCYGYGCGCGSFCRLGYGCGYCYCPCCVGIPEDGCCCPSCYRRYRFTGFY",
+  "progen3_ll": -2.9546778202056885,
+  "progen3_perplexity": 19.195537567138672,
+  "max_sequence": "MCYGYGCGCGSFCRLGYGCGYTGGGGCGCTRPDGCCCPSCYRRYRFTGFY",
+  "max_ll": -2.4790022373199463,
+  "max_perplexity": 11.929356575012207,
+  "max_kl": 0.11466644704341888,
+  "max_nmse": 0.09321328997612,
+  "base_sequence": "MCYGYGCGCGSFCRLGYGCGYCCNDCCCCCVCFMDGCCCPSCYRRYRFTGFY",
+  "base_ll": -2.6891584396362305,
+  "base_perplexity": 14.719284057617188,
+  "base_kl": 0.2841878831386566,
+  "base_nmse": 0.17084486782550812,
+  "recovered_sequence": "MCYGYGCGCGSFCRLGYGCGYCCYPYCRGVGIDGCCCPSCYRRYRFTGFY",
+  "recovered_ll": -2.8416574001312256,
+  "recovered_perplexity": 17.14415740966797,
+  "recovered_kl": 0.1521330177783966,
+  "recovered_nmse": 0.08128123730421066,
+  "nodes": {
+    "9": [
+      12,
+      44,
+      90,
+      127,
+      158,
+      407,
+      506,
+      1184,
+      1277,
+      1491,
+      1832,
+      1844,
+      1957,
+      2067,
+      2213,
+      2964,
+      2975,
+      3104,
+      3117,
+      3199,
+      3382,
+      3540,
+      3575,
+      3577,
+      3624,
+      3821,
+      4193,
+      4444,
+      4544
+    ],
+    "7": [
+      415,
+      889,
+      1454,
+      2747,
+      3389,
+      3464,
+      3487,
+      4055,
+      4564
+    ],
+    "8": [
+      372,
+      1136,
+      1581,
+      1687,
+      3001,
+      3024,
+      4471
+    ],
+    "0": [
+      376,
+      1286,
+      2888,
+      3057,
+      4596
+    ],
+    "3": [
+      855,
+      1207,
+      2634,
+      2993,
+      3440,
+      3738
+    ],
+    "4": [
+      637,
+      1278,
+      1721,
+      2757
+    ],
+    "2": [
+      1767,
+      2403,
+      3588
+    ],
+    "6": [
+      947
+    ]
+  }
+}

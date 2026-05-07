@@ -1,0 +1,8 @@
+venv/
+venv
+venv/
+**/__pycache__
+data/
+/data
+models/
+visualization/top10_activations.pt

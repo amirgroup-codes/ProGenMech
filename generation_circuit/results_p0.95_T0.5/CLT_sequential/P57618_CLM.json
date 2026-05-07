@@ -1,0 +1,70 @@
+{
+  "entry": "P57618",
+  "entry_name": "FETP_BUCAI",
+  "type": "CLM",
+  "prompt": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLE",
+  "k": 32,
+  "original_sequence": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLEHRKKIEKYMKLFLFKK",
+  "original_ll": -2.3606743812561035,
+  "original_perplexity": 10.59809684753418,
+  "progen3_sequence": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLEERKYIEEQMEKFFFGE",
+  "progen3_ll": -0.8747889995574951,
+  "progen3_perplexity": 2.398369312286377,
+  "max_sequence": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLEEIEFFEEELEELGEEK",
+  "max_ll": -2.5356035232543945,
+  "max_perplexity": 12.624048233032227,
+  "max_kl": 0.87779700756073,
+  "max_nmse": 0.05791740491986275,
+  "base_sequence": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLEFLIKFNEFKKIEFN",
+  "base_ll": -2.7971603870391846,
+  "base_perplexity": 16.39801597595215,
+  "base_kl": 0.7795758247375488,
+  "base_nmse": 0.04524116590619087,
+  "recovered_sequence": "MNRIIFCTFFKKKSEGQDFQSYPGKLGKKIYDQISKKAWEKWIEKQTILINEENLNMFNLEEIFKFEEEFEEFFEIK",
+  "recovered_ll": -2.389126777648926,
+  "recovered_perplexity": 10.90396785736084,
+  "recovered_kl": 0.7150474786758423,
+  "recovered_nmse": 0.06258486211299896,
+  "nodes": {
+    "9": [
+      44,
+      234,
+      325,
+      407,
+      727,
+      1250,
+      1374,
+      1844,
+      1882,
+      1937,
+      1957,
+      2010,
+      2218,
+      2379,
+      2417,
+      3346,
+      3355,
+      3372,
+      3540,
+      3624,
+      3821,
+      4098,
+      4231,
+      4520,
+      4544
+    ],
+    "8": [
+      858,
+      2168,
+      2567,
+      3756
+    ],
+    "0": [
+      2888,
+      4488
+    ],
+    "7": [
+      3251
+    ]
+  }
+}

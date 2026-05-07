@@ -1,0 +1,3 @@
+[submodule "external/progen2"]
+	path = external/progen2
+	url = https://github.com/enijkamp/progen2.git

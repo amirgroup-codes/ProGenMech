@@ -1,0 +1,72 @@
+{
+  "entry": "O31873",
+  "entry_name": "YOSU_BACSU",
+  "type": "GLM_2",
+  "prompt": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIGFGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI[GLM]41-43-2",
+  "k": 32,
+  "original_sequence": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIGFGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI",
+  "original_ll": -2.235682487487793,
+  "original_perplexity": 9.352862358093262,
+  "progen3_sequence": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIYPGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI",
+  "progen3_ll": -3.2923710346221924,
+  "progen3_perplexity": 26.906583786010742,
+  "max_sequence": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIVPGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI",
+  "max_ll": -3.1271822452545166,
+  "max_perplexity": 22.80961799621582,
+  "max_kl": 0.25742077827453613,
+  "max_nmse": 0.02944735810160637,
+  "base_sequence": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIYFGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI",
+  "base_ll": -1.9915897846221924,
+  "base_perplexity": 7.327173233032227,
+  "base_kl": 0.3082122802734375,
+  "base_nmse": 1.253042221069336,
+  "recovered_sequence": "MRKILKIVSLLILLLLLVYSFFSPNSQLFVFVQLIIIAFLIFMGINCFVKKERYQGTLYFVIAICNITINLDKINELIQSI",
+  "recovered_ll": -3.1128129959106445,
+  "recovered_perplexity": 22.484203338623047,
+  "recovered_kl": 0.29851555824279785,
+  "recovered_nmse": 0.6346288323402405,
+  "nodes": {
+    "9": [
+      1,
+      76,
+      138,
+      255,
+      326,
+      426,
+      467,
+      519,
+      601,
+      671,
+      902,
+      1234,
+      1622,
+      1810,
+      1879,
+      2103,
+      2174,
+      2242,
+      2613,
+      2843,
+      3008,
+      3114,
+      3692,
+      3707,
+      3963,
+      4513,
+      4594
+    ],
+    "4": [
+      4039
+    ],
+    "7": [
+      4276
+    ],
+    "8": [
+      296,
+      2428
+    ],
+    "5": [
+      3988
+    ]
+  }
+}

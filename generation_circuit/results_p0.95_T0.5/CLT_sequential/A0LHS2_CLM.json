@@ -1,0 +1,72 @@
+{
+  "entry": "A0LHS2",
+  "entry_name": "MINE_SYNFM",
+  "type": "CLM",
+  "prompt": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMAL",
+  "k": 32,
+  "original_sequence": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMALVSNIQIKRVYRKAAPDIRS",
+  "original_ll": -3.138157367706299,
+  "original_perplexity": 23.06133460998535,
+  "progen3_sequence": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMALELEIVAKP",
+  "progen3_ll": -1.7740561962127686,
+  "progen3_perplexity": 5.894715309143066,
+  "max_sequence": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMALDITVPGSS",
+  "max_ll": -2.250938653945923,
+  "max_perplexity": 9.4966459274292,
+  "max_kl": 0.22836363315582275,
+  "max_nmse": 0.031523942947387695,
+  "base_sequence": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMALPRLGPRPDL",
+  "base_ll": -3.014981985092163,
+  "base_perplexity": 20.388723373413086,
+  "base_kl": 0.41517162322998047,
+  "base_nmse": 0.1435314565896988,
+  "recovered_sequence": "MLKAIRRFFGEKASGQVARRRMQVVLMHDRMDLTPDIMEALRNDILAVISRYMEIDSRSIRVDLEQGKEYMALDDVDLPKP",
+  "recovered_ll": -2.7115955352783203,
+  "recovered_perplexity": 15.053275108337402,
+  "recovered_kl": 0.3712763488292694,
+  "recovered_nmse": 0.12376270443201065,
+  "nodes": {
+    "9": [
+      126,
+      828,
+      1094,
+      1435,
+      1537,
+      1858,
+      1957,
+      2218,
+      2771,
+      3228,
+      3392,
+      3540,
+      3763,
+      3821,
+      3938,
+      4142
+    ],
+    "0": [
+      460,
+      2722
+    ],
+    "6": [
+      1153,
+      1255,
+      2512,
+      3820,
+      3879
+    ],
+    "8": [
+      291,
+      583,
+      841,
+      863,
+      1804,
+      2032,
+      2300
+    ],
+    "7": [
+      2227,
+      3251
+    ]
+  }
+}

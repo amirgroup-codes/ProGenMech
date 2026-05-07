@@ -1,0 +1,296 @@
+{
+  "entry": "DFG.json",
+  "type": "CLM",
+  "prompt": "MVKQVDFAEVKLSEKFLGAGSGGAVRKATFQNQEIAVKIFDFLEETIKKNAEREITHLSEIDHENVIRVIGRASNGKKDYLLMEYLEEGSLHNYLYGDDKWEYTVEQAVRWALQCAKALAYLHSLDRPIVHRDIKPQNMLLYNQHEDLKICDF",
+  "k": 32,
+  "progen3_sequence": "MVKQVDFAEVKLSEKFLGAGSGGAVRKATFQNQEIAVKIFDFLEETIKKNAEREITHLSEIDHENVIRVIGRASNGKKDYLLMEYLEEGSLHNYLYGDDKWEYTVEQAVRWALQCAKALAYLHSLDRPIVHRDIKPQNMLLYNQHEDLKICDFG",
+  "progen3_ll": -0.09159796684980392,
+  "progen3_perplexity": 1.0959241390228271,
+  "max_sequence": "MVKQVDFAEVKLSEKFLGAGSGGAVRKATFQNQEIAVKIFDFLEETIKKNAEREITHLSEIDHENVIRVIGRASNGKKDYLLMEYLEEGSLHNYLYGDDKWEYTVEQAVRWALQCAKALAYLHSLDRPIVHRDIKPQNMLLYNQHEDLKICDFG",
+  "max_ll": -0.09159796684980392,
+  "max_perplexity": 1.0959241390228271,
+  "max_kl": 0.11464761197566986,
+  "max_nmse": 0.12860216200351715,
+  "base_sequence": "MVKQVDFAEVKLSEKFLGAGSGGAVRKATFQNQEIAVKIFDFLEETIKKNAEREITHLSEIDHENVIRVIGRASNGKKDYLLMEYLEEGSLHNYLYGDDKWEYTVEQAVRWALQCAKALAYLHSLDRPIVHRDIKPQNMLLYNQHEDLKICDFS",
+  "base_ll": -4.036910533905029,
+  "base_perplexity": 56.65105056762695,
+  "base_kl": 2.711482286453247,
+  "base_nmse": 1.362868070602417,
+  "recovered_sequence": "MVKQVDFAEVKLSEKFLGAGSGGAVRKATFQNQEIAVKIFDFLEETIKKNAEREITHLSEIDHENVIRVIGRASNGKKDYLLMEYLEEGSLHNYLYGDDKWEYTVEQAVRWALQCAKALAYLHSLDRPIVHRDIKPQNMLLYNQHEDLKICDFG",
+  "recovered_ll": -0.09159796684980392,
+  "recovered_perplexity": 1.0959241390228271,
+  "recovered_kl": 0.0402945913374424,
+  "recovered_nmse": 0.8747487664222717,
+  "nodes": {
+    "3": [
+      2365
+    ],
+    "5": [
+      3017
+    ],
+    "8": [
+      1571,
+      1687,
+      2092,
+      2347
+    ],
+    "9": [
+      149,
+      362,
+      506,
+      693,
+      922,
+      1184,
+      1837,
+      1915,
+      2145,
+      2583,
+      2641,
+      2890,
+      2987,
+      3077,
+      3753,
+      3821,
+      4334
+    ],
+    "7": [
+      985,
+      1727,
+      2717,
+      3431
+    ],
+    "6": [
+      1016,
+      2282,
+      2385
+    ],
+    "4": [
+      1637
+    ],
+    "0": [
+      933
+    ]
+  },
+  "top_gradient_nodes": {
+    "0": [
+      {
+        "latent": 933,
+        "score": 0.011170479469001293
+      },
+      {
+        "latent": 363,
+        "score": 0.0029201065190136433
+      },
+      {
+        "latent": 1598,
+        "score": 0.0018204854568466544
+      },
+      {
+        "latent": 1851,
+        "score": 0.00166582060046494
+      },
+      {
+        "latent": 2907,
+        "score": 0.0016567278653383255
+      }
+    ],
+    "1": [
+      {
+        "latent": 2706,
+        "score": 0.0023836728651076555
+      },
+      {
+        "latent": 1405,
+        "score": 0.0019681407138705254
+      },
+      {
+        "latent": 1023,
+        "score": 0.0015952939866110682
+      },
+      {
+        "latent": 1450,
+        "score": 0.0015292585594579577
+      },
+      {
+        "latent": 3185,
+        "score": 0.0014943780843168497
+      }
+    ],
+    "2": [
+      {
+        "latent": 1067,
+        "score": 0.0038696820847690105
+      },
+      {
+        "latent": 4288,
+        "score": 0.0031061770860105753
+      },
+      {
+        "latent": 215,
+        "score": 0.002171479631215334
+      },
+      {
+        "latent": 3849,
+        "score": 0.0019959944766014814
+      },
+      {
+        "latent": 3325,
+        "score": 0.00196254625916481
+      }
+    ],
+    "3": [
+      {
+        "latent": 2365,
+        "score": 0.05405134707689285
+      },
+      {
+        "latent": 3818,
+        "score": 0.001176074263639748
+      },
+      {
+        "latent": 3349,
+        "score": 0.0011361080687493086
+      },
+      {
+        "latent": 545,
+        "score": 0.0010758382268249989
+      },
+      {
+        "latent": 2979,
+        "score": 0.001068767043761909
+      }
+    ],
+    "4": [
+      {
+        "latent": 1637,
+        "score": 0.012847371399402618
+      },
+      {
+        "latent": 3797,
+        "score": 0.004518500529229641
+      },
+      {
+        "latent": 4462,
+        "score": 0.003436323255300522
+      },
+      {
+        "latent": 155,
+        "score": 0.0026682575698941946
+      },
+      {
+        "latent": 1774,
+        "score": 0.00264570489525795
+      }
+    ],
+    "5": [
+      {
+        "latent": 3017,
+        "score": 0.0521770715713501
+      },
+      {
+        "latent": 1171,
+        "score": 0.003375439438968897
+      },
+      {
+        "latent": 397,
+        "score": 0.0030181121546775103
+      },
+      {
+        "latent": 3679,
+        "score": 0.0027318375650793314
+      },
+      {
+        "latent": 689,
+        "score": 0.0023262505419552326
+      }
+    ],
+    "6": [
+      {
+        "latent": 1016,
+        "score": 0.01404101587831974
+      },
+      {
+        "latent": 2282,
+        "score": 0.009384842589497566
+      },
+      {
+        "latent": 2385,
+        "score": 0.00882293563336134
+      },
+      {
+        "latent": 2069,
+        "score": 0.005058799404650927
+      },
+      {
+        "latent": 3805,
+        "score": 0.0034446364734321833
+      }
+    ],
+    "7": [
+      {
+        "latent": 1727,
+        "score": 0.015821442008018494
+      },
+      {
+        "latent": 985,
+        "score": 0.011889011599123478
+      },
+      {
+        "latent": 3431,
+        "score": 0.00935552828013897
+      },
+      {
+        "latent": 2717,
+        "score": 0.008428040891885757
+      },
+      {
+        "latent": 1709,
+        "score": 0.007823355495929718
+      }
+    ],
+    "8": [
+      {
+        "latent": 2347,
+        "score": 0.03173905983567238
+      },
+      {
+        "latent": 1687,
+        "score": 0.015538334846496582
+      },
+      {
+        "latent": 1571,
+        "score": 0.011148297227919102
+      },
+      {
+        "latent": 2092,
+        "score": 0.00932350568473339
+      },
+      {
+        "latent": 3905,
+        "score": 0.008125308901071548
+      }
+    ],
+    "9": [
+      {
+        "latent": 506,
+        "score": 0.02715217135846615
+      },
+      {
+        "latent": 2987,
+        "score": 0.02260475978255272
+      },
+      {
+        "latent": 4334,
+        "score": 0.019125904887914658
+      },
+      {
+        "latent": 3753,
+        "score": 0.017894580960273743
+      },
+      {
+        "latent": 3077,
+        "score": 0.016959527507424355
+      }
+    ]
+  }
+}

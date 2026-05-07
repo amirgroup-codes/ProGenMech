@@ -1,0 +1,110 @@
+{
+  "entry": "O29540",
+  "entry_name": "Y718_ARCFU",
+  "type": "GLM_2",
+  "prompt": "MVKVYVLVDNKVVDLRPPGMKAEWGFSAYIDAKEPVLMDSGIRYRL[GLM]6-19-13",
+  "k": 64,
+  "original_sequence": "MVKVYVLVDNKVVDLRPPGMKAEWGFSAYIDAKEPVLMDSGIRYRL",
+  "original_ll": -2.849870443344116,
+  "original_perplexity": 17.28554344177246,
+  "progen3_sequence": "MVKVYVMAKLSQLIDIVNNMKAEWGFSAYIDAKEPVLMDSGIRYRL",
+  "progen3_ll": -2.9670701026916504,
+  "progen3_perplexity": 19.434894561767578,
+  "max_sequence": "MVKVYVMKVVFIEEMAEDLMKAEWGFSAYIDAKEPVLMDSGIRYRL",
+  "max_ll": -2.9677445888519287,
+  "max_perplexity": 19.448007583618164,
+  "max_kl": 0.30966898798942566,
+  "max_nmse": 1.2765450477600098,
+  "base_sequence": "MVKVYVCMKAEWGFSAYIDAKEPVLMDSGIRYRL",
+  "base_ll": -3.1791250705718994,
+  "base_perplexity": 24.02572250366211,
+  "base_kl": 5.093479156494141,
+  "base_nmse": 5.059244632720947,
+  "recovered_sequence": "MVKVYVCCCCCCCCCCCCCMKAEWGFSAYIDAKEPVLMDSGIRYRL",
+  "recovered_ll": -2.1082355976104736,
+  "recovered_perplexity": 8.2337007522583,
+  "recovered_kl": 2.1230309009552,
+  "recovered_nmse": 0.9434114098548889,
+  "nodes": {
+    "9": [
+      1081,
+      1184,
+      1352,
+      1844,
+      1957,
+      2732,
+      3050,
+      3199,
+      3513,
+      3540,
+      3624,
+      3821,
+      4250,
+      4370,
+      4544
+    ],
+    "0": [
+      228,
+      276,
+      401,
+      460,
+      546,
+      574,
+      588,
+      1178,
+      1303,
+      1344,
+      1706,
+      1821,
+      1914,
+      1921,
+      2106,
+      2117,
+      2692,
+      2782,
+      2943,
+      2993,
+      3130,
+      3171,
+      3648,
+      3922,
+      3963,
+      4050,
+      4116,
+      4129,
+      4294,
+      4473,
+      4488,
+      4540,
+      4560
+    ],
+    "2": [
+      1784,
+      2866
+    ],
+    "3": [
+      545,
+      626
+    ],
+    "8": [
+      1299,
+      1870,
+      2077,
+      4534
+    ],
+    "1": [
+      1294,
+      1956,
+      2540,
+      2988,
+      3231,
+      3397
+    ],
+    "4": [
+      3811
+    ],
+    "5": [
+      4281
+    ]
+  }
+}

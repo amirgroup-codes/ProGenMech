@@ -1,0 +1,110 @@
+{
+  "entry": "P84859",
+  "entry_name": "GUEN_SYLGU",
+  "type": "CLM",
+  "prompt": "VIDDLKKVAKKVRRELLCKK",
+  "k": 64,
+  "original_sequence": "VIDDLKKVAKKVRRELLCKKHHKKLN",
+  "original_ll": -3.104609489440918,
+  "original_perplexity": 22.300506591796875,
+  "progen3_sequence": "VIDDLKKVAKKVRRELLCKKQLSLTE",
+  "progen3_ll": -2.6383581161499023,
+  "progen3_perplexity": 13.990215301513672,
+  "max_sequence": "VIDDLKKVAKKVRRELLCKKLTEENV",
+  "max_ll": -2.6888606548309326,
+  "max_perplexity": 14.714900970458984,
+  "max_kl": 0.015777774155139923,
+  "max_nmse": 0.01134017575532198,
+  "base_sequence": "VIDDLKKVAKKVRRELLCKKREPPNE",
+  "base_ll": -3.0652923583984375,
+  "base_perplexity": 21.440731048583984,
+  "base_kl": 0.055649708956480026,
+  "base_nmse": 0.1045050397515297,
+  "recovered_sequence": "VIDDLKKVAKKVRRELLCKKFLKGTE",
+  "recovered_ll": -2.6645636558532715,
+  "recovered_perplexity": 14.361681938171387,
+  "recovered_kl": 0.018348345533013344,
+  "recovered_nmse": 0.011129767633974552,
+  "nodes": {
+    "9": [
+      12,
+      27,
+      162,
+      381,
+      407,
+      506,
+      696,
+      734,
+      828,
+      957,
+      967,
+      981,
+      1184,
+      1251,
+      1296,
+      1312,
+      1374,
+      1434,
+      1579,
+      1844,
+      1851,
+      1957,
+      2268,
+      2787,
+      2788,
+      2791,
+      3050,
+      3199,
+      3266,
+      3372,
+      3382,
+      3540,
+      3624,
+      3676,
+      3723,
+      3779,
+      3802,
+      3821,
+      4250,
+      4544
+    ],
+    "8": [
+      1664,
+      1687,
+      1775,
+      1867,
+      2112,
+      2567,
+      2858
+    ],
+    "0": [
+      694,
+      2299,
+      2888,
+      4145,
+      4488
+    ],
+    "7": [
+      889,
+      1256,
+      1625,
+      1709,
+      2254,
+      2666,
+      2802
+    ],
+    "6": [
+      2389,
+      3396
+    ],
+    "1": [
+      546
+    ],
+    "3": [
+      545
+    ],
+    "4": [
+      714
+    ]
+  }
+}

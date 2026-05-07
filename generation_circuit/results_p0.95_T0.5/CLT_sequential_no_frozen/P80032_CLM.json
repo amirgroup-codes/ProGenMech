@@ -1,0 +1,110 @@
+{
+  "entry": "P80032",
+  "entry_name": "COLE_ZOPAT",
+  "type": "CLM",
+  "prompt": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGP",
+  "k": 64,
+  "original_sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPNKAKPTWHVGGTYRR",
+  "original_ll": -3.066948175430298,
+  "original_perplexity": 21.476261138916016,
+  "progen3_sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPGGAPVGASGTPVTVV",
+  "progen3_ll": -2.3897297382354736,
+  "progen3_perplexity": 10.910545349121094,
+  "max_sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPGRGPPAPPQGTVGPR",
+  "max_ll": -2.6189260482788086,
+  "max_perplexity": 13.720980644226074,
+  "max_kl": 0.24676012992858887,
+  "max_nmse": 0.0757317990064621,
+  "base_sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGP",
+  "base_ll": NaN,
+  "base_perplexity": NaN,
+  "base_kl": 13.173188209533691,
+  "base_nmse": 15.078180313110352,
+  "recovered_sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPGGAPAGASGGPGSAS",
+  "recovered_ll": -2.2207608222961426,
+  "recovered_perplexity": 9.214338302612305,
+  "recovered_kl": 0.20036816596984863,
+  "recovered_nmse": 0.04050685837864876,
+  "nodes": {
+    "0": [
+      97,
+      189,
+      200,
+      222,
+      401,
+      795,
+      1244,
+      1521,
+      1719,
+      1921,
+      2273,
+      2445,
+      2722,
+      2984,
+      2991,
+      2993,
+      3499,
+      3588,
+      3648,
+      3853,
+      3963,
+      4000,
+      4050,
+      4426,
+      4488,
+      4540,
+      4596
+    ],
+    "3": [
+      545,
+      855,
+      1399,
+      1479,
+      3440
+    ],
+    "6": [
+      483,
+      947,
+      1072,
+      1292,
+      1467,
+      1546,
+      3484,
+      3507
+    ],
+    "9": [
+      1957,
+      3122,
+      3199,
+      3540,
+      3624,
+      3821
+    ],
+    "4": [
+      325,
+      446,
+      771,
+      1272,
+      1323,
+      2134,
+      2522,
+      2777,
+      3409,
+      3984,
+      3985,
+      4475
+    ],
+    "7": [
+      1264,
+      2261,
+      2986,
+      3389
+    ],
+    "8": [
+      3741
+    ],
+    "2": [
+      3913
+    ]
+  }
+}

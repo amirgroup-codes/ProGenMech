@@ -1,0 +1,74 @@
+{
+  "entry": "O14330",
+  "entry_name": "YB7F_SCHPO",
+  "type": "GLM_2",
+  "prompt": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMSTRLDQLEESMREAMNKKSSVSPVTSTE[GLM]47-62-15",
+  "k": 32,
+  "original_sequence": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMSTRLDQLEESMREAMNKKSSVSPVTSTE",
+  "original_ll": -2.3878300189971924,
+  "original_perplexity": 10.889838218688965,
+  "progen3_sequence": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMNSLNELQDIINIDEINKKSSVSPVTSTE",
+  "progen3_ll": -2.7718608379364014,
+  "progen3_perplexity": 15.988358497619629,
+  "max_sequence": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMKQKSNKMKEYSEKNDNKKSSVSPVTSTE",
+  "max_ll": -2.7140233516693115,
+  "max_perplexity": 15.089865684509277,
+  "max_kl": 0.5990939140319824,
+  "max_nmse": 1.1270859241485596,
+  "base_sequence": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMNKKSSVSPVTSTE",
+  "base_ll": -2.677372932434082,
+  "base_perplexity": 14.546828269958496,
+  "base_kl": 5.395378112792969,
+  "base_nmse": 4.473713397979736,
+  "recovered_sequence": "MSASVRGNSKNPQSTSAITTLTDKLLEDISGDFETLQKQFSEKLETMCSCCCSSWSICCCESNKKSSVSPVTSTE",
+  "recovered_ll": -3.4292988777160645,
+  "recovered_perplexity": 30.85500144958496,
+  "recovered_kl": 0.4853050112724304,
+  "recovered_nmse": 0.3414263427257538,
+  "nodes": {
+    "9": [
+      745,
+      1184,
+      1844,
+      1957,
+      2974,
+      3199,
+      3540,
+      3624,
+      3821
+    ],
+    "0": [
+      694,
+      1297,
+      2031,
+      2299,
+      2692,
+      2722,
+      2991,
+      4050,
+      4426,
+      4488
+    ],
+    "3": [
+      545,
+      3440,
+      4467
+    ],
+    "7": [
+      933,
+      2261,
+      3389,
+      4045
+    ],
+    "4": [
+      678,
+      916,
+      1323,
+      3582
+    ],
+    "6": [
+      947,
+      4191
+    ]
+  }
+}

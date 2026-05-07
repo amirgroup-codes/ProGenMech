@@ -1,0 +1,112 @@
+{
+  "entry": "G2TRP8",
+  "entry_name": "MZM1_SCHPO",
+  "type": "GLM_1",
+  "prompt": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQSNDTYSLKIRKTTEINTNRQFTEKKFPR[GLM]72-74-2",
+  "k": 64,
+  "original_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQSNDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "original_ll": -3.386929988861084,
+  "original_perplexity": 29.57501792907715,
+  "progen3_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQGMDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "progen3_ll": -2.787998676300049,
+  "progen3_perplexity": 16.24846839904785,
+  "max_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQELDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "max_ll": -2.7591614723205566,
+  "max_perplexity": 15.786599159240723,
+  "max_kl": 0.02964053861796856,
+  "max_nmse": 0.005150764714926481,
+  "base_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQMMDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "base_ll": -3.7626953125,
+  "base_perplexity": 43.0643424987793,
+  "base_kl": 0.16227442026138306,
+  "base_nmse": 1.107606291770935,
+  "recovered_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQLMDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "recovered_ll": -3.1477065086364746,
+  "recovered_perplexity": 23.282604217529297,
+  "recovered_kl": 0.060473181307315826,
+  "recovered_nmse": 0.190842404961586,
+  "nodes": {
+    "9": [
+      12,
+      407,
+      538,
+      598,
+      745,
+      758,
+      760,
+      957,
+      964,
+      967,
+      1184,
+      1190,
+      1302,
+      1320,
+      1491,
+      1579,
+      1828,
+      1835,
+      1844,
+      1851,
+      1957,
+      2005,
+      2046,
+      2287,
+      2488,
+      2592,
+      2732,
+      2787,
+      3050,
+      3199,
+      3266,
+      3372,
+      3382,
+      3540,
+      3624,
+      3676,
+      3779,
+      3802,
+      3821,
+      4232,
+      4482,
+      4533,
+      4544
+    ],
+    "8": [
+      1557,
+      1664,
+      1955,
+      2112,
+      2201,
+      2256,
+      2567,
+      2596,
+      2621
+    ],
+    "7": [
+      889,
+      3251,
+      4045
+    ],
+    "6": [
+      85,
+      4494
+    ],
+    "1": [
+      779,
+      3554
+    ],
+    "3": [
+      3358
+    ],
+    "5": [
+      2020
+    ],
+    "0": [
+      318,
+      2031
+    ],
+    "4": [
+      2459
+    ]
+  }
+}

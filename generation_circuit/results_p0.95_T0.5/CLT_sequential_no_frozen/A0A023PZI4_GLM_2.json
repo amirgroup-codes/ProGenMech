@@ -1,0 +1,110 @@
+{
+  "entry": "A0A023PZI4",
+  "entry_name": "YH069_YEAST",
+  "type": "GLM_2",
+  "prompt": "MDSCSSTPFVTGVLLPSAVFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ[GLM]14-19-5",
+  "k": 64,
+  "original_sequence": "MDSCSSTPFVTGVLLPSAVFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ",
+  "original_ll": -2.593716859817505,
+  "original_perplexity": 13.379408836364746,
+  "progen3_sequence": "MDSCSSTPFVTGVLIFLLTFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ",
+  "progen3_ll": -2.5130696296691895,
+  "progen3_perplexity": 12.34276008605957,
+  "max_sequence": "MDSCSSTPFVTGVLLSGSLFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ",
+  "max_ll": -2.454704999923706,
+  "max_perplexity": 11.642997741699219,
+  "max_kl": 0.42371103167533875,
+  "max_nmse": 1.0594074726104736,
+  "base_sequence": "MDSCSSTPFVTGVLCCCFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ",
+  "base_ll": -3.138601779937744,
+  "base_perplexity": 23.071584701538086,
+  "base_kl": 4.545695781707764,
+  "base_nmse": 3.8252460956573486,
+  "recovered_sequence": "MDSCSSTPFVTGVLCCCCCFSFLFCTLVSSSFGLDEFNLTTCGIRGTLKMQFLKFLENTLIFLGSGNLTAHIGILVMKNDLSNSRIWRFTGGLYGNTPDILHELINLLNFWNTGSAIFMQ",
+  "recovered_ll": -3.0647048950195312,
+  "recovered_perplexity": 21.428136825561523,
+  "recovered_kl": 1.5113017559051514,
+  "recovered_nmse": 0.16589225828647614,
+  "nodes": {
+    "9": [
+      957,
+      1184,
+      1832,
+      1844,
+      1957,
+      3050,
+      3199,
+      3382,
+      3526,
+      3540,
+      3624,
+      3779,
+      3821,
+      4250,
+      4350,
+      4544
+    ],
+    "0": [
+      189,
+      200,
+      401,
+      416,
+      460,
+      531,
+      574,
+      694,
+      795,
+      1178,
+      1253,
+      1475,
+      1706,
+      1914,
+      1921,
+      2011,
+      2020,
+      2117,
+      2299,
+      2692,
+      2722,
+      2984,
+      2991,
+      3171,
+      3373,
+      3648,
+      3853,
+      3963,
+      4000,
+      4050,
+      4116,
+      4242,
+      4426,
+      4473,
+      4540,
+      4560
+    ],
+    "3": [
+      545
+    ],
+    "2": [
+      1784,
+      2866
+    ],
+    "5": [
+      285,
+      1466,
+      2372,
+      3064,
+      3745
+    ],
+    "4": [
+      3811
+    ],
+    "8": [
+      1421,
+      3653
+    ],
+    "1": [
+      3231
+    ]
+  }
+}

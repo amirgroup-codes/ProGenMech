@@ -1,0 +1,824 @@
+=== Top Activations ===
+Sequence Length: 59
+Total Nodes: 32
+-------------------------------------
+
+--- Rank #1 ---
+Node: Layer 10, Latent 3625
+Max Activation: 43.9912 (Attribution: 0.0183)
+Peak Location: Trace Idx 2 (AA #2)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M][D][N][S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [28.097439 43.991226 40.707047 40.838287 37.323982 40.047176 38.195343
+ 37.879765 39.30713  34.18521  38.01873  40.432575 35.516724 40.079685
+ 36.52026  36.232014 39.574505 42.036243 36.90782  37.96971  40.60827
+ 37.540955 37.256172 38.368443 35.826008 35.172672 25.025177 33.029472
+ 28.716492 20.993069 21.204655 24.941296 23.199492 22.337318 24.687311
+ 25.706795 24.991423 26.22614  22.57463  24.707256 23.102299 25.008198
+ 29.401716 25.649422 24.396494 17.86341  26.666372 28.382893 26.865664
+ 19.971542 31.675186 27.562965 28.117054 26.558125 27.35624  28.598139
+ 27.523773 25.485481 26.25808 ]
+
+   [Global Top 10 Reference Entries for L10-3625]
+   1. Q75A58 (AMN1_EREGS) - Score: 68.2112 - ...[C][A][A][S][P][W][T][P][R][V][P][A][D][I][A][Q][A][G][G][R][A]... - Antagonist of mitotic exit network protein 1
+   2. Q9GM01 (GALT9_MACFA) - Score: 67.4589 - ...[S][S][Q][L][V][R][Y][S][A][D][G][L][L][Q][L][G][P][L][G][S][T]... - Polypeptide N-acetylgalactosaminyltransferase 9 (EC 2.4.1.41) (Polypeptide GalNAc transferase 9) (GalNAc-T9) (pp-GaNTase 9) (Protein-UDP acetylgalactosaminyltransferase 9) (UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 9)
+   3. P57775 (FBXW4_HUMAN) - Score: 67.4548 - ...[C][R][W][L][R][R][F][T][S][C][D][L][L][W][R][R][I][A][R][A][S]... - F-box/WD repeat-containing protein 4 (Dactylin) (F-box and WD-40 domain-containing protein 4)
+   4. Q6P6V1 (GLT11_RAT) - Score: 67.4448 - ...[V][L][L][K][A][C][D][Y][G][D][P][T][Q][V][W][I][Y][N][E][E][H]... - Polypeptide N-acetylgalactosaminyltransferase 11 (EC 2.4.1.41) (Polypeptide GalNAc transferase 11) (GalNAc-T11) (pp-GaNTase 11) (Protein-UDP acetylgalactosaminyltransferase 11) (UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 11)
+   5. Q640Z9 (LRC14_XENLA) - Score: 67.1841 - ...[G][S][V][R][Q][I][D][L][R][F][N][N][L][G][L][S][G][L][N][V][L]... - Leucine-rich repeat-containing protein 14
+   6. Q566H4 (MED16_XENLA) - Score: 67.1334 - ...[V][C][A][W][S][C][R][N][L][I][A][F][T][T][D][Q][R][N][E][E][E]... - Mediator of RNA polymerase II transcription subunit 16 (Mediator complex subunit 16)
+   7. Q8TBC3 (SHKB1_HUMAN) - Score: 66.9476 - ...[R][R][L][G][S][R][P][R][R][Y][L][L][T][G][Q][A][N][G][S][L][A]... - SH3KBP1-binding protein 1 (SETA-binding protein 1)
+   8. Q9JMJ2 (FBXW4_MOUSE) - Score: 66.8600 - ...[L][L][W][R][P][I][A][R][A][S][L][N][T][G][F][T][R][L][G][T][D]... - F-box/WD repeat-containing protein 4 (F-box and WD-40 domain-containing protein 4) (Protein hagoromo)
+   9. P90794 (DCA11_CAEEL) - Score: 66.7701 - ...[N][Q][S][P][A][Y][S][V][R][T][A][A][E][I][V][A][H][Q][R][M][K]... - DDB1- and CUL4-associated factor 11 homolog (WD repeat-containing protein 23)
+   10. Q5M9G8 (DCA11_RAT) - Score: 66.7393 - ...[E][R][G][L][C][H][R][G][S][F][S][L][G][E][Q][S][R][V][M][S][H]... - DDB1- and CUL4-associated factor 11 (WD repeat-containing protein 23)
+
+--- Rank #2 ---
+Node: Layer 10, Latent 1958
+Max Activation: 33.9131 (Attribution: 0.0146)
+Peak Location: Trace Idx 20 (AA #20)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M][D][N][S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [20.518095 27.55078  26.804913 28.208824 26.998343 30.465929 26.534397
+ 27.702885 29.087076 21.394949 21.962727 25.751375 28.753244 29.042704
+ 24.900522 27.695211 30.459827 32.421066 30.097588 33.913124 33.43854
+ 28.564453 29.63771  31.000238 27.857964 30.947365 23.708406 24.563015
+ 23.176466 19.002537 20.789095 21.774532 18.611773 23.730543 26.372126
+ 26.017113 29.099863 27.76903  29.376879 31.029922 26.56542  29.639933
+ 31.574392 30.778421 26.503023 26.523375 32.961727 26.92091  21.033487
+ 25.706144 27.72724  27.349707 26.861305 25.729761 23.069212 26.348309
+ 23.485893 25.036707 27.721682]
+
+   [Global Top 10 Reference Entries for L10-1958]
+   1. P10200 (CEP2_HHV11) - Score: 51.7106 - ...[N][P][D][P][G][R][A][L][F][C][E][I][F][L][Y][L][T][R][P][K][A]... - Cytoplasmic envelopment protein 2
+   2. Q8C013 (TPBGL_MOUSE) - Score: 51.6875 - ...[P][R][V][L][L][D][R][P][L][I][D][L][D][E][A][R][L][G][C][S][D]... - Trophoblast glycoprotein-like
+   3. O55439 (TERM_ADEB3) - Score: 51.6111 - ...[N][N][T][E][R][A][S][P][M][L][S][L][P][C][D][C][D][W][L][E][A]... - Preterminal protein (pTP) (Bellett protein) (Precursor terminal protein) [Cleaved into: Intermediate terminal protein (iTP); Terminal protein (TP)]
+   4. Q6SWB8 (UL13_HCMVM) - Score: 51.6031 - ...[I][I][P][P][A][P][T][V][L][R][Q][N][E][E][P][R][Q][Q][L][T][G]... - Uncharacterized protein UL13
+   5. Q3KNT7 (NSN5B_HUMAN) - Score: 51.4622 - ...[T][F][P][S][L][Q][R][L][V][Y][S][M][C][S][L][C][Q][E][E][N][E]... - Putative NOL1/NOP2/Sun domain family member 5B (EC 2.1.1.-) (Williams-Beuren syndrome chromosomal region 20B protein)
+   6. Q9W3I5 (OR7A_DROME) - Score: 51.4101 - ...[L][D][C][I][S][P][V][I][S][R][T][I][F][V][Q][F][L][I][T][A][A]... - Odorant receptor 7a
+   7. P04294 (AN_HHV11) - Score: 51.4027 - ...[E][P][T][A][R][S][L][L][F][R][Y][C][V][G][R][A][D][D][G][G][E]... - Alkaline nuclease (EC 3.1.-.-)
+   8. Q5TJE5 (RGL2_CANLF) - Score: 51.3343 - ...[S][H][L][C][P][S][V][R][A][T][V][T][Q][F][N][K][V][A][G][A][V]... - Ral guanine nucleotide dissociation stimulator-like 2 (RalGDS-like 2) (Ras-associated protein RAB2L)
+   9. P03204 (EBNA6_EBVB9) - Score: 51.3273 - ...[R][V][G][A][D][S][I][M][L][T][A][T][F][G][C][Q][N][A][A][R][T]... - Epstein-Barr nuclear antigen 6 (EBNA-6) (EBV nuclear antigen 6) (Epstein-Barr nuclear antigen 3C) (EBNA-3C) (EBV nuclear antigen 3C) (Epstein-Barr nuclear antigen 4B) (EBNA-4B) (EBV nuclear antigen 4B)
+   10. P16755 (UL13_HCMVA) - Score: 51.3239 - ...[V][I][P][P][A][P][T][V][L][R][Q][N][E][E][P][R][Q][Q][L][T][G]... - Uncharacterized protein UL13
+
+--- Rank #3 ---
+Node: Layer 10, Latent 3822
+Max Activation: 23.0117 (Attribution: 0.0100)
+Peak Location: Trace Idx 18 (AA #18)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M][D][N][S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [13.453261  21.786402  21.136446  20.913965  19.235014  21.700268
+ 20.591951  17.891298  22.99652   12.55667   17.87569   19.279396
+ 21.52205   20.01424   20.796124  19.865553  22.304144  23.011717
+ 20.844353  20.953964  21.01078   16.315378  15.861529  19.30498
+ 17.853214  18.30652   12.956283  13.099269  10.619295   5.2293415
+  7.5985336 10.815406  11.984941  12.102466  17.271055  18.260904
+ 17.355164  16.214588  13.379939  15.765257  12.435741  16.462774
+ 14.31096   18.19864   16.560385  12.2683    16.210703  16.691408
+ 10.635474   9.688385  13.236078  13.357572  12.796739  12.323447
+ 12.150144  12.960685  11.45762   10.426604  15.383431 ]
+
+   [Global Top 10 Reference Entries for L10-3822]
+   1. P58148 (YCX9_EUGLO) - Score: 57.3249 - ...[S][N][S][F][T][Y][M][I][K][I][N][I][Y] - Uncharacterized 15.0 kDa protein in rpl12-rps7 intergenic region (ORF122)
+   2. Q5UPF0 (YR073_MIMIV) - Score: 57.0241 - ...[Q][Q][K][N][N][E][K][F][E][K][L][S][E][K][I][E][K][M][G][K][E]... - Uncharacterized protein R73
+   3. Q54TP6 (Y8322_DICDI) - Score: 56.9428 - ...[I][L][K][P][N][I][F][E][K][F][K][L][G][E][L][I][K][L][V][M][I]... - Putative uncharacterized protein DDB_G0281631
+   4. Q54NQ8 (Y6335_DICDI) - Score: 56.8411 - ...[E][S][I][E][K][S][I][N][Y][L][K][T][I][K][Q][Q][N][K][N][T][R]... - Putative uncharacterized protein DDB_G0285031
+   5. Q8IIG4 (MRS2_PLAF7) - Score: 56.6482 - ...[I][N][M][L][T][N][N][L][L][R][E][M][M][K][I][K][N][K][L][Q][K]... - Mitochondrial inner membrane magnesium transporter MIT1
+   6. Q54L72 (GTAD_DICDI) - Score: 56.6465 - ...[Q][E][T][L][E][K][D][I][L][L][F][S][N][A][S][E][T][I][C][I][P]... - GATA zinc finger domain-containing protein 4
+   7. Q5UQ69 (YL504_MIMIV) - Score: 56.5707 - ...[N][S][S][K][N][K][K][I][L][E][T][D][S][N][T][T][K][E][T][Y][I]... - Uncharacterized protein L504
+   8. C0H537 (TRM5_PLAF7) - Score: 56.5271 - ...[E][L][F][Y][K][Q][R][E][E][I][I][H][D][D][V][I][Y][S][K][N][N]... - tRNA (guanine(37)-N(1))-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase) (tRNA methyltransferase 5 homolog)
+   9. Q75JB3 (Y8452_DICDI) - Score: 56.5113 - ...[L][E][H][L][E][N][F][K][K][I][M][D][D] - Putative uncharacterized protein DDB_G0271698
+   10. A0A509AK04 (MRS2_PLABA) - Score: 56.4619 - ...[L][N][M][L][T][N][K][L][L][R][D][M][M][K][I][K][N][N][L][Q][K]... - Mitochondrial inner membrane magnesium transporter MIT1 (PfMIT1)
+
+--- Rank #4 ---
+Node: Layer 10, Latent 1845
+Max Activation: 33.8170 (Attribution: 0.0052)
+Peak Location: Trace Idx 18 (AA #18)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M]DN[S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P]RND[V][T][P][V][N][R][N][V]
+Trace Window : [14.685354  28.017267  24.852612  27.593786  26.0755    28.21566
+ 24.163778  23.152897  25.503244  22.23346   23.417992  24.309118
+ 27.657156  29.966475  28.689615  27.948133  28.77449   33.81701
+ 28.149153  28.17143   29.178972  26.016811  23.275444  25.22494
+ 17.201988  17.086584   7.202565  11.941461   0.         0.
+  7.6061783 12.09251   11.281448  12.296618  14.363378  15.330621
+ 12.100118  11.410243  11.127458  13.204415  12.454794  16.000973
+ 18.54307   18.60539    9.120058   7.808219  10.58583    7.145401
+  0.         0.         0.         9.319108  11.345489   9.794499
+ 10.290423  12.145263   8.387128  10.150511  13.65516  ]
+
+   [Global Top 10 Reference Entries for L10-1845]
+   1. Q5FWH7 (S39AC_MOUSE) - Score: 39.7602 - ...[L][S][L][V][S][S][T][E][T][G][K][T][L][T][Q][N][N][S][R][A][G]... - Zinc transporter ZIP12 (Solute carrier family 39 member 12) (Zrt- and Irt-like protein 12) (ZIP-12)
+   2. Q9LV04 (PAP14_ARATH) - Score: 39.3085 - ...[Q][S][P][S][N][V][E][E][I][D][D][N][P][S][V][S][L][E][D][E][S]... - Probable plastid-lipid-associated protein 14, chloroplastic (AtPap14) (Fibrillin-11) (OBP3-responsive protein 1)
+   3. Q9CWR8 (DNM3L_MOUSE) - Score: 38.9494 - ...[L][E][T][L][D][L][E][T][S][D][S][S][S][P][D][A][D][S][P][L][E]... - DNA (cytosine-5)-methyltransferase 3-like
+   4. Q18179 (NPR11_CAEEL) - Score: 38.7525 - M[G][S][V][N][E][S][C][D][N][Y][V][E][I][F][N][K][I][N][Y]... - Putative neuropeptide Y receptor 11 (NPY-R)
+   5. P09729 (US09_HCMVA) - Score: 38.6585 - ...[L][S][S][R][S][K][E][S][L][R][L][S][W][S][S][D][E][S][S][A][S]... - Unique short US9 glycoprotein (Protein HXLF3) (gpUS9)
+   6. F5HC33 (US09_HCMVM) - Score: 38.6321 - ...[L][S][S][R][S][K][E][S][L][R][L][S][W][S][S][D][E][S][S][A][S]... - Membrane glycoprotein US9
+   7. Q08CY9 (EOGT_XENTR) - Score: 38.6303 - ...[I][H][F][S][H][G][N][E][I][D][S][A][A][S][N][G][S][A][L][S][Y]... - EGF domain-specific O-linked N-acetylglucosamine transferase (EC 2.4.1.255) (Extracellular O-linked N-acetylglucosamine transferase)
+   8. Q9SV04 (SCP36_ARATH) - Score: 38.6202 - ...[V][P][S][P][K][D][K][D][L][I][Q][Q][L][P][G][Q][P][S][D][V][T]... - Serine carboxypeptidase-like 36 (EC 3.4.16.-)
+   9. Q91431 (NF7O_XENLA) - Score: 38.4851 - ...[V][G][S][T][Y][P][C][K][R][S][D][G][S][Q][H][D][A][D][I][V][K]... - Nuclear factor 7, ovary (xNF7-O)
+   10. O43687 (AKA7A_HUMAN) - Score: 38.4417 - ...[P][F][S][R][D][E][G][K][I][S][E][L][E][S][S][S][S][A][V][L][Q]... - A-kinase anchor protein 7 isoforms alpha and beta (AKAP-7 isoforms alpha and beta) (A-kinase anchor protein 18 kDa) (AKAP 18) (Protein kinase A-anchoring protein 7 isoforms alpha/beta) (PRKA7 isoforms alpha/beta)
+
+--- Rank #5 ---
+Node: Layer 10, Latent 45
+Max Activation: 14.2471 (Attribution: 0.0044)
+Peak Location: Trace Idx 50 (AA #50)
+Motif Context: GQTG[M]FPR[N]DVTP[V]NR
+Trace Window : [ 0.         0.         0.         0.        11.343263   0.
+  0.         0.        14.247086   0.         0.         0.
+  0.         4.1202755  0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-45]
+   1. Q6MH10 (AMPA_BDEBA) - Score: 30.2246 - ...P[V]C[F]VGKGLT[F]DCGGISIKPG... - Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)
+   2. P25981 (YADH_CLOBE) - Score: 29.8883 - ...R[V]AKSA[K]PGQ[F]IIIKNDEKGE... - Uncharacterized protein in adh 3'region
+   3. C5CLU5 (AMPA_VARPS) - Score: 29.7571 - ...PVV[L]VGKGIT[F]DTGGVSLKPA... - Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)
+   4. A1AZ56 (Y436_PARDP) - Score: 29.2651 - ...IAMPGMRDPR[F]EQSVI[L]ICAH... - UPF0301 protein Pden_0436
+   5. B0SGN8 (GCST_LEPBA) - Score: 29.1701 - ...HKEMGAK[M]VP[F]GG[W]DMPVQ[Y]T... - Aminomethyltransferase (EC 2.1.2.10) (Glycine cleavage system T protein)
+   6. B0SQA1 (GCST_LEPBP) - Score: 29.1659 - ...HKEMGAK[M]VP[F]GG[W]DMPVQ[Y]T... - Aminomethyltransferase (EC 2.1.2.10) (Glycine cleavage system T protein)
+   7. Q46XT9 (AMPA_CUPPJ) - Score: 28.9107 - ...PVV[L]VGKGIT[F]DTGGISLKPG... - Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)
+   8. Q3K5Y8 (RL3_PSEPF) - Score: 28.9013 - ...VGRKA[G]MTRI[F]TEEGVSIPVT... - Large ribosomal subunit protein uL3 (50S ribosomal protein L3)
+   9. Q2GAK1 (APT_NOVAD) - Score: 28.8675 - ...VPD[F]PSPG[I]L[F][R]DITTL[I]AHG... - Adenine phosphoribosyltransferase (APRT) (EC 2.4.2.7)
+   10. P43061 (ARLY_CANAX) - Score: 28.8130 - ...PSENKLWGGR[F]TGATDP[L]MDL... - Argininosuccinate lyase (ASAL) (EC 4.3.2.1) (Arginosuccinase)
+
+--- Rank #6 ---
+Node: Layer 8, Latent 2228
+Max Activation: 3.9271 (Attribution: 0.0043)
+Peak Location: Trace Idx 23 (AA #23)
+Motif Context: T[Y][V][Q][A]LFDFDPQED[G][E][L][G][F][R][R][G][D][F][I][H][V][M]D[N][S][D]P[N][W][W][K][G][A][C][H][G][Q][T][G][M][F]P[R][N]D[V][T][P][V][N][R][N][V]
+Trace Window : [0.         1.3793213  1.5301441  0.6228111  0.13372919 0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         1.4184481  0.5416117  1.9826888  2.0741253
+ 2.1311326  0.3743932  1.4425598  1.8431157  3.9271238  0.8959063
+ 2.4015875  1.90753    1.9005979  2.1508746  0.         1.0076535
+ 0.32683882 0.6878581  0.         1.140067   1.8798326  1.0576473
+ 0.7575308  2.835963   1.62887    1.8494548  1.9303936  1.6818863
+ 3.0131102  1.7660419  2.2150338  2.3144891  2.9236991  0.
+ 1.8023597  0.96341133 0.         1.3536042  1.0221761  0.8822489
+ 1.5450962  1.834793   0.8372568  0.47360775 1.7502257 ]
+
+   [Global Top 10 Reference Entries for L8-2228]
+   1. Q07591 (EAE_CITFR) - Score: 7.5524 - ...[T][T][D][Q][N][G][Y][A][T][V][K][L][S][S][G][T][P][G][K][A][I]... - Intimin (Attaching and effacing protein) (Eae protein)
+   2. A0A1L9WLD5 (AACUJ_ASPA1) - Score: 7.4575 - ...[A][K][L][E][D][G][V][L][V][V][E][V][P][K][T]E[P]D[D][V][E]... - SHSP domain-containing protein AacuJ (Secalonic acid cluster protein J)
+   3. P12812 (P40_SCHMA) - Score: 7.4449 - ...[A][Q][V][V][G][N][T][L][V][L][E][A][P][L][E][K][Q][H][A][I][T]... - Major egg antigen (p40)
+   4. Q90239 (FABPL_ANOPU) - Score: 7.2865 - ...[I][R][Q][T][G][N][T][F][V][V][T][S][K][T][P][N][K][S][V][T][N]... - Fatty acid-binding protein, liver (Liver basic FABP) (LB-FABP) (Liver-type fatty acid-binding protein) (L-FABP)
+   5. Q61T16 (RT24_CAEBR) - Score: 7.1429 - ...[I][K][R][R]G[N][V][L][I][V][A][G][F][L][Q][Y][S][R][R][L][D]... - Small ribosomal subunit protein uS3m (28S ribosomal protein S24, mitochondrial) (MRP-S24) (S24mt)
+   6. Q9LPC7 (CP18A_ARATH) - Score: 7.1280 - ...V[T][L][H][T][N]LG[D][I][K][C][E][I][F][C][D][E][V][P]K... - Peptidyl-prolyl cis-trans isomerase CYP18-1 (PPIase CYP18-1) (EC 5.2.1.8) (Cyclophilin of 18 kDa 1) (Cyclophilin-18-1)
+   7. P17260 (KRE1_YEAST) - Score: 7.1264 - ...[V][V][R][Q][G][N][T][I][T][V][Q][T][T][F][V][Q][R][F][S][S][Q]... - Protein KRE1 (Killer toxin-resistance protein 1)
+   8. P19809 (EAE_ECO27) - Score: 7.1177 - ...[K][T][D][T][N][G][Y][A][K][V][T][L][T][S][T][T][P]G[K][S][L]... - Intimin (Attaching and effacing protein) (Eae protein)
+   9. P31416 (FABP1_MANSE) - Score: 7.1142 - ...[T][T][Y][T][V][D][G][N][T][V][T][Q][V][V][N][S][A][Q][G][S][A]... - Fatty acid-binding protein 1 (FABP 1)
+   10. P80856 (FABPL_RHASA) - Score: 7.1140 - ...[I][Q][Q]T[G][N][D][F][V][I][T][S][K][T][P][G][K][S][V][T][N]... - Fatty acid-binding protein, liver (Fatty acid-binding protein 1) (Liver basic FABP) (LB-FABP) (Liver-type fatty acid-binding protein) (L-FABP)
+
+--- Rank #7 ---
+Node: Layer 10, Latent 3541
+Max Activation: 17.4600 (Attribution: 0.0041)
+Peak Location: Trace Idx 57 (AA #57)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F]R[R][G][D][F][I]H[V][M][D][N][S][D][P][N][W][W][K][G]A[C][H][G][Q][T][G]MF[P][R]N[D][V][T][P][V][N][R][N][V]
+Trace Window : [10.798731  12.637062  10.086224  15.606873  12.094608  13.65723
+ 11.068741   9.005688   7.946181  16.088293  17.269712  14.595333
+ 10.524797  13.261141  14.40605   12.161348   9.05356   10.574402
+ 11.720779   0.        12.772408  11.992521  12.613892   8.737591
+ 12.695526   0.         6.1869025 11.78158   11.401796  13.027197
+ 11.350527  11.958456  13.90955    8.534399   5.216833   7.5903344
+  7.8233676  8.261852   0.         7.0269217  5.625245   8.975378
+ 10.128315   9.255177   6.1634035  0.         0.        10.68029
+ 10.971237   0.        12.480459  15.24614   11.419128  11.006166
+ 13.829493  14.501371  17.459959  17.197935  13.657255 ]
+
+   [Global Top 10 Reference Entries for L10-3541]
+   1. P57169 (CCA_BUCAI) - Score: 41.0845 - ...[L][R][I][K][K][L][E][F][W][R][I][K][N][I][K][H][R][F][Y][L] - CCA-adding enzyme (EC 2.7.7.72) (CCA tRNA nucleotidyltransferase) (tRNA CCA-pyrophosphorylase) (tRNA adenylyl-/cytidylyl- transferase) (tRNA nucleotidyltransferase) (tRNA-NT)
+   2. B8D8L9 (CCA_BUCA5) - Score: 40.9294 - ...[L][R][I][K][K][L][E][F][W][R][I][K][N][I][K][H][R][F][Y][L] - CCA-adding enzyme (EC 2.7.7.72) (CCA tRNA nucleotidyltransferase) (tRNA CCA-pyrophosphorylase) (tRNA adenylyl-/cytidylyl- transferase) (tRNA nucleotidyltransferase) (tRNA-NT)
+   3. B8D6X3 (CCA_BUCAT) - Score: 40.8436 - ...[L][R][I][K][K][L][E][F][W][R][I][K][N][I][K][H][R][F][Y][L] - CCA-adding enzyme (EC 2.7.7.72) (CCA tRNA nucleotidyltransferase) (tRNA CCA-pyrophosphorylase) (tRNA adenylyl-/cytidylyl- transferase) (tRNA nucleotidyltransferase) (tRNA-NT)
+   4. B2RPK0 (HGB1A_HUMAN) - Score: 40.6058 - ...[F][S][N][K][C][S][E][R][W][K][T][M][S][A][K][E][K][G][K][F][E]... - High mobility group protein B1-like 1 (High mobility group protein 1-like 1) (HMG-1L1)
+   5. P77872 (CATA_HELPY) - Score: 39.9433 - ...[K][D][M][H][H][T][K][K][K][K] - Catalase (EC 1.11.1.6)
+   6. Q18LD0 (UL97_ELHVK) - Score: 39.6230 - ...[I][Q][K][R][Y][N][S][E][K][K][H][A][C][C][V][S][N][L][H][L][T]... - Phosphotransferase UL97 homolog (EC 2.7.1.-)
+   7. Q8MIT6 (ROCK1_BOVIN) - Score: 39.5953 - ...[Q][D][L][R][K][K][K][K][K][K] - Rho-associated protein kinase 1 (EC 2.7.11.1) (Rho-associated, coiled-coil-containing protein kinase 1) (Rho-associated, coiled-coil-containing protein kinase I) (ROCK-I) (p160 ROCK-1) (p160ROCK)
+   8. Q09437 (CD111_CAEEL) - Score: 39.5942 - ...[Q][N][K][A][P][P][P][A][K][Q][K][Q][Q][E][N][R][I][S][H][V][D]... - Cyclin-dependent kinase 11.1 (EC 2.7.11.22)
+   9. Q9BRS2 (RIOK1_HUMAN) - Score: 39.5889 - ...[H][V][K][K][R][K][E][K][T][A][K][T][K][K][G][K] - Serine/threonine-protein kinase RIO1 (EC 2.7.11.1) (EC 3.6.1.-) (RIO kinase 1)
+   10. Q6CU30 (RGI1_KLULA) - Score: 39.5788 - ...[H][L][H][Q][H][I][E][K][H][L][L][K][D][I][K][E][R][I][K][L][P]... - Respiratory growth induced protein 1
+
+--- Rank #8 ---
+Node: Layer 8, Latent 1455
+Max Activation: 3.4407 (Attribution: 0.0041)
+Peak Location: Trace Idx 16 (AA #16)
+Motif Context: T[Y][V]QALFDF[D]P[Q]E[D][G][E][L][G][F][R][R][G][D][F]I[H][V][M]DN[S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [0.         0.01495326 1.000752   0.         0.         0.
+ 0.         0.         0.         0.1524364  0.         0.28285787
+ 0.         0.22772405 1.5296254  3.4407003  1.7293818  2.6815925
+ 0.9919853  2.6800888  1.3113141  1.9369268  0.19046184 1.5447576
+ 0.         0.33791134 1.783128   0.38303944 0.         0.
+ 0.9239569  2.0912898  0.6329818  1.6044292  2.251365   0.926478
+ 0.78292954 1.9477496  1.1791729  0.5656899  1.4116912  2.1727707
+ 2.3984683  3.2066643  3.2033134  2.1484933  1.7768185  2.1972928
+ 0.8356979  0.7026653  0.28571472 1.9789932  1.0077037  1.5345305
+ 1.3411379  1.3847874  0.97980416 0.11922207 2.633612  ]
+
+   [Global Top 10 Reference Entries for L8-1455]
+   1. P02642 (TNNT2_CHICK) - Score: 8.2974 - ...[E][Y][V][E][E][E][E][E][E][W][L][E][E][D][D][G][Q][E][D][Q][V]... - Troponin T, cardiac muscle isoforms (TnTC)
+   2. Q8N1W2 (ZN710_HUMAN) - Score: 7.8380 - ...[E][E][E][E][Q][E][V][Y][E][V][S][V][P][G][D][D][K][D][A][G][P]... - Zinc finger protein 710
+   3. Q8NDX5 (PHC3_HUMAN) - Score: 7.8370 - ...[E][M][P][E][E][S][D][E][C][V][R][M][D][R][T][P][P][P][P][T][L]... - Polyhomeotic-like protein 3 (Early development regulatory protein 3) (Homolog of polyhomeotic 3) (hPH3)
+   4. Q9VWV9 (PORCN_DROME) - Score: 7.7381 - ...[E][D][Y][Y][F][G][G][D][D][V][E][E][E][L][V][V][D][G][H][G][V]... - Protein-serine O-palmitoleoyltransferase porcupine (EC 2.3.1.250)
+   5. P50754 (TNNI3_XENLA) - Score: 7.7363 - ...[T][Y][E][E][E][E][E][E][Y][V][E][E][E][E][E][E][V][V][A][P][E]... - Troponin I, cardiac muscle (Troponin IC)
+   6. Q9FL96 (SEM12_ARATH) - Score: 7.6881 - ...[W][E][D][D][W][D][D][D][D][V][S][D][D][F][S][R][Q][L][K][K][E]... - Protein DSS1 HOMOLOG ON CHROMOSOME V (AtDSS1(V)) (Probable 26S proteasome complex subunit sem1-2)
+   7. A0A0R4IWG9 (GCNA_DANRE) - Score: 7.6683 - ...[V][F][L][S][D][S][D][D][D][C][N][I][V][I][K][S][T][W][R][T][R]... - Germ cell nuclear acidic protein (Acidic repeat-containing protein) (Germ cell nuclear acidic peptidase)
+   8. Q756V1 (FKBP3_EREGS) - Score: 7.6303 - ...[D][E][D][S][Y][D][E][D][H][E][G][C][G][E][N][C][A][C][D][D][D]... - FK506-binding protein 3 (EC 5.2.1.8) (Peptidyl-prolyl cis-trans isomerase) (PPIase) (Rotamase)
+   9. Q6R7C3 (Y107_OSHVF) - Score: 7.6271 - ...[E][G][E][I][E][E][E][E][E][V][V][E][E][Q][L][A][P][V][K][K][M]... - Uncharacterized protein ORF107
+   10. Q75NG9 (TNNT3_PIG) - Score: 7.5746 - ...[A][E][V][H][E][V][H][E][E][V][H][E][V][H][E][P][E][E][V][Q][E]... - Troponin T, fast skeletal muscle (TnTf)
+
+--- Rank #9 ---
+Node: Layer 10, Latent 2418
+Max Activation: 11.8999 (Attribution: 0.0038)
+Peak Location: Trace Idx 52 (AA #52)
+Motif Context: RGDF[I]H[V]M[D][N][S][D][P][N][W][W]K[G][A][C][H]GQT[G]M[F][P][R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [ 0.         0.         0.         0.         6.7240934  0.
+  5.156767   0.         5.4563704  8.200998   5.15013    6.6791
+  7.258049   8.008449   5.3202033  4.457956   0.         9.569284
+  7.510498   6.656087   6.7050734  0.         0.         0.
+  7.1666193  0.         6.402932   8.099936   9.527304   9.124815
+  7.254946  11.899929  10.101335   6.49823    9.295069   6.8433604
+  7.6892586  8.620509   6.595952 ]
+
+   [Global Top 10 Reference Entries for L10-2418]
+   1. Q3SEU9 (HIS3_THIDA) - Score: 20.2094 - ...[R][G][V]YFSR[S][R][H][K][L][W][R][K][G][E][E][S][G][H]... - Phosphoribosyl-AMP cyclohydrolase (PRA-CH) (EC 3.5.4.19)
+   2. B8FLE7 (HIS3_DESAL) - Score: 19.8755 - ...[M][A]TYWSR[S][R][Q][E][L][W][T][K][G][L][T][S][G][N]... - Phosphoribosyl-AMP cyclohydrolase (PRA-CH) (EC 3.5.4.19)
+   3. A0AG14 (HIS3_LISW6) - Score: 19.8749 - ...[Y][T][W]FFSR[S][R][N][E][L][W][N][K][G][A][T][S][G][H]... - Phosphoribosyl-AMP cyclohydrolase (PRA-CH) (EC 3.5.4.19)
+   4. P28720 (TGT_ZYMMO) - Score: 19.8745 - ...[T]YHLML[R][P][G][A][E][R]I[A][K]LGGL[H][S]... - Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)
+   5. Q7UWK9 (TGT_RHOBA) - Score: 19.8500 - ...[T]YHLRL[R]PG[H][E][T]V[A][A]LG[G]L[H][K]... - Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)
+   6. Q8ZXE0 (UDGB_PYRAE) - Score: 19.7772 - ...C[A][P][P][K][N][R][P][T][A][E][E][V][Y][N][C][S][S][W][L][R]... - Type-5 uracil-DNA glycosylase (EC 3.2.2.-) (Pa-UDGb)
+   7. Q81G01 (HIS3_BACCR) - Score: 19.6578 - ...[R][T][W]FYSR[S][R][Q][S][L][W][N][K][G][E][T][S][G][N]... - Phosphoribosyl-AMP cyclohydrolase (PRA-CH) (EC 3.5.4.19)
+   8. C0ZG86 (SYI_BREBN) - Score: 19.6398 - ...F[P]M[R]GNL[P][S][R][E][P][Q][M][Q][A][V][W][E][E][Q]... - Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)
+   9. Q92E89 (HIS3_LISIN) - Score: 19.6233 - ...[Y][T][W]FFSR[S][R][N][E][L][W][N][K][G][E][T][S][G][N]... - Phosphoribosyl-AMP cyclohydrolase (PRA-CH) (EC 3.5.4.19)
+   10. Q7VVJ8 (QUEE_BORPE) - Score: 19.5476 - ...FAGCNL[W][T][G][R][E][S][D][R][A][G][A][A][C][T]F... - 7-carboxy-7-deazaguanine synthase (CDG synthase) (EC 4.3.99.3) (Queuosine biosynthesis protein QueE)
+
+--- Rank #10 ---
+Node: Layer 10, Latent 1395
+Max Activation: 13.8029 (Attribution: 0.0034)
+Peak Location: Trace Idx 50 (AA #50)
+Motif Context: RRGD[F]I[H][V]M[D][N]SDPN[W][W]KG[A]C[H]G[Q]T[G][M][F][P]R[N][D][V]T[P][V]NR
+Trace Window : [ 0.         0.         0.         0.         5.933682   0.
+ 11.480186   8.371706   0.         6.7812176  5.370773   0.
+  0.         0.         0.         6.708425   5.690938   0.
+  0.         7.841084   0.         5.062509   0.         7.179081
+  0.        10.620428  10.228594   5.9804683  6.357848   0.
+ 13.802877  13.194933   6.200251   0.         8.4628525  4.5273266
+  0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-1395]
+   1. P42097 (YPB3_LACLL) - Score: 31.1133 - ...KG[Y]TG[T]S[I]ND[I][L]DETA[T]GKGQ... - Uncharacterized HTH-type transcriptional regulator in lacX 3'region (ORF3)
+   2. P51953 (CDK7_CARAU) - Score: 31.0827 - ...[K][L][L]Q[E][L]S[H]PN[I][I]G[L][L]D[A][F][G]HK... - Cyclin-dependent kinase 7 (EC 2.7.11.22) (EC 2.7.11.23) (40 kDa protein kinase) (CDC2/CDK2,4-activating kinase) (Cell division protein kinase 7) (P40 MO15)
+   3. B7VBQ0 (LEUD_PSEA8) - Score: 30.9006 - ...[L]DR[A]N[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   4. Q02PT3 (LEUD_PSEAB) - Score: 30.7809 - ...[L]DR[A]N[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   5. Q4KF07 (LEUD_PSEF5) - Score: 30.7392 - ...[L]DRAN[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   6. Q4JUX3 (LEUD_CORJK) - Score: 30.6873 - ...[L][N][R][S]N[V]D[T]DQ[I][I]PAVY[L]KR[V][T]... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   7. A6V2V4 (LEUD_PSEP7) - Score: 30.6704 - ...[L]DR[A]N[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   8. B6YRN2 (LEUD_AZOPC) - Score: 30.6584 - ...[L]P[I]QN[I]DTDQ[I][I]PAR[F][L]KA[I]S... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   9. Q9HZA4 (LEUD_PSEAE) - Score: 30.6434 - ...[L]DR[A]N[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+   10. Q48K98 (LEUD_PSE14) - Score: 30.6283 - ...[L]DRAN[V]D[T]DQ[I][I]PKQF[L]KS[I]K... - 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)
+
+--- Rank #11 ---
+Node: Layer 10, Latent 3200
+Max Activation: 37.4958 (Attribution: 0.0031)
+Peak Location: Trace Idx 18 (AA #18)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F]I[H]V[M]DN[S][D][P][N][W][W][K]G[A]CH[G][Q][T]GMFPRN[D]V[T][P][V][N][R][N][V]
+Trace Window : [16.200985  27.35658   27.887451  34.041763  29.914827  33.032093
+ 30.696075  27.539787  26.704184  25.9356    31.825912  34.58969
+ 31.822258  34.046066  34.388275  32.25912   32.54803   37.49581
+ 33.022934  28.401688  29.3786    26.557686  24.944714  24.132875
+  0.        11.357391   0.         5.7921467  0.         0.
+  6.520536  13.040079  13.222179  12.211119  10.411945  13.074039
+  8.945169   0.         6.29174    0.         0.        11.541814
+ 18.503372  15.26219    0.         0.         0.         0.
+  0.         0.         4.7628527  0.         5.9008965  8.8335285
+  7.537597  10.950384   8.303098  12.454978  13.631143 ]
+
+   [Global Top 10 Reference Entries for L10-3200]
+   1. Q6ZSS7 (MFSD6_HUMAN) - Score: 48.5137 - ...[Q][L][T][I][L][P][T][N][S][S][F][T][S][F][L][T][I][S][P][K][M]... - Major facilitator superfamily domain-containing protein 6 (Macrophage MHC class I receptor 2 homolog)
+   2. P31386 (ATS1_YEAST) - Score: 47.4869 - ...[D][E][D][M][D][T][P][Q][R][S][V][P][G][D][D][G][A][I][V][R][K]... - Protein KTI13 (Alpha-tubulin suppressor 1) (Kluyveromyces lactis toxin-insensitive protein 13)
+   3. P32538 (CAPSP_ADEGX) - Score: 47.2039 - M[W][G][L][Q][P][P][T][S][I][P][P][P][P][P][P][T][E][L]... - Penton protein (CP-P) (Penton base protein) (Protein III)
+   4. P32237 (GNRHR_SHEEP) - Score: 47.2025 - ...[N][S][S][I][L][L][T][P][G][S][L][P][T][L][T][L][S][G][K][I][R]... - Gonadotropin-releasing hormone receptor (GnRH receptor) (GnRH-R)
+   5. Q9WU25 (ADA1A_CAVPO) - Score: 47.0084 - ...[D][S][S][N][C][T][Q][P][P][A][P][V][N][I][P][K][A][I][L][L][G]... - Alpha-1A adrenergic receptor (Alpha-1A adrenoreceptor) (Alpha-1A adrenoceptor) (Alpha-1C adrenergic receptor)
+   6. Q54SV3 (ALN1_DICDI) - Score: 46.9797 - ...[C][D][K][D][S][S][I][D][Q][S][I][L][E][N][L][T][Q][L][N][Q][Q]... - Probable allantoinase 1 (EC 3.5.2.5)
+   7. Q8CBH5 (MFSD6_MOUSE) - Score: 46.9296 - ...[P][V][T][V][L][P][M][N][S][S][T][V][A][F][F][S][T][P][P][K][L]... - Major facilitator superfamily domain-containing protein 6 (Macrophage MHC class I receptor 2)
+   8. P35348 (ADA1A_HUMAN) - Score: 46.8344 - ...[D][S][S][N][C][T][Q][P][P][A][P][V][N][I][S][K][A][I][L][L][G]... - Alpha-1A adrenergic receptor (Alpha-1A adrenoreceptor) (Alpha-1A adrenoceptor) (Alpha-1C adrenergic receptor) (Alpha-adrenergic receptor 1c)
+   9. Q6NYU7 (UPP_DANRE) - Score: 46.7231 - ...[Q][Q][L][N][N][N][S][E][S][P][E][H][A][A][K][H][V][R][F][A][Q]... - Uracil phosphoribosyltransferase homolog
+   10. Q91854 (TRCB_XENLA) - Score: 46.5146 - ...[G][F][S][C][S][L][Q][P][P][T][A][S][E][R][E][D][C][N][R][D][E]... - Beta-TrCP (Beta-transducin repeat-containing protein)
+
+--- Rank #12 ---
+Node: Layer 10, Latent 507
+Max Activation: 17.5232 (Attribution: 0.0029)
+Peak Location: Trace Idx 44 (AA #44)
+Motif Context: [T]YVQALFDF[D]PQEDGELGFRRGDFIHVMDN[S]DP[N]WW[K]GACH[G]Q[T]GM[F]PR
+Trace Window : [ 4.7685013  0.         0.         0.         0.         0.
+  0.         0.         0.         9.229031   0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  8.287329   0.         0.         5.3606153  0.         0.
+  6.6124887  0.         0.         0.         0.         8.49873
+  0.        17.523165   0.         0.        11.051336   0.
+  0.       ]
+
+   [Global Top 10 Reference Entries for L10-507]
+   1. A5UII7 (RNH2_HAEIG) - Score: 43.5028 - ...YELIAGVDEV[G]R[G]PLV[G]AVVT... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   2. Q4QLM7 (RNH2_HAEI8) - Score: 43.4940 - ...YELIAGVDEV[G]R[G]PLV[G]AVVT... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   3. P57986 (RNH2_PASMU) - Score: 43.4330 - ...VELIA[G]VDEV[G]R[G]PLV[G]AVVT... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   4. Q65VI0 (RNH2_MANSM) - Score: 43.4292 - ...FELIAGVDEV[G]R[G]PLV[G]AVVT... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   5. A4XLE8 (RNH2_CALS8) - Score: 42.8726 - ...[Y]RFIC[G]VDEA[G]R[G]PLA[G]PVFA... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   6. A0LMM5 (RNH2_SYNFM) - Score: 42.8352 - ...FQLV[A]GIDEV[G]R[G]PLA[G]PVVA... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   7. Q834C7 (SYY2_ENTFA) - Score: 42.8327 - ...FDPT[A][D]SLHI[G]HLL[P]IL[M]LR[R]... - Tyrosine--tRNA ligase 2 (EC 6.1.1.1) (Tyrosyl-tRNA synthetase 2) (TyrRS 2)
+   8. Q2LVU5 (RNH2_SYNAS) - Score: 42.4879 - ...YRVI[A]GVDEA[G]R[G]PLA[G]PVVA... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   9. B9MQX2 (RNH2_CALBD) - Score: 42.4143 - ...YRFIC[G]VDEA[G]R[G]PLA[G]PVFA... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+   10. P43808 (RNH2_HAEIN) - Score: 42.2518 - ...YKLIAGVDEV[G]R[G]PLV[G]AVVT... - Ribonuclease HII (RNase HII) (EC 3.1.26.4)
+
+--- Rank #13 ---
+Node: Layer 10, Latent 1185
+Max Activation: 24.5946 (Attribution: 0.0029)
+Peak Location: Trace Idx 2 (AA #2)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M][D][N][S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R]N[D][V][T][P][V][N][R][N][V]
+Trace Window : [18.09451   24.594566  22.503275  23.37732   20.925304  22.207424
+ 20.179485  19.447803  21.721336  17.742527  20.778946  21.38891
+ 19.986393  20.1188    19.812103  19.8129    20.626364  22.7633
+ 23.051249  20.505867  20.888657  18.662952  16.483603  16.271152
+ 14.377398  14.49765   10.992577  14.959048   9.2770605  8.189054
+  7.8004403 10.104556  14.379047  13.279099  10.5538025 12.716883
+ 12.952328  10.660058   9.663859   9.552541  10.190858  14.349395
+ 16.021866  15.925441   8.988437   7.237392  11.678203  11.395335
+  8.477582   0.        10.0427265 10.763423  10.981724  12.8434725
+ 11.741595  12.68487   11.418866  11.654286  13.522534 ]
+
+   [Global Top 10 Reference Entries for L10-1185]
+   1. P10828 (THB_HUMAN) - Score: 38.5878 - ...[D][D][V][N][D][Q][S][V][S][S][A][Q][T][F][Q][T][E][E][K][K][C]... - Thyroid hormone receptor beta (Nuclear receptor subfamily 1 group A member 2) (c-erbA-2) (c-erbA-beta)
+   2. Q9E6L7 (VG93_GAHVM) - Score: 38.2929 - ...[Q][S][N][V][T][S][S][M][S][V][M][N][D][S][E][E][Y][P][L][I][N]... - Uncharacterized gene 93 protein
+   3. Q05105 (US441_GAHVG) - Score: 38.1665 - ...[Q][S][N][V][T][S][S][M][S][V][M][N][D][S][E][E][C][P][L][I][N]... - Uncharacterized 16.7 kDa protein
+   4. Q8IZP9 (AGRG2_HUMAN) - Score: 37.8338 - ...[S][L][E][E][D][T][D][N][S][S][L][S][P][P][P][A][K][L][S][V][V]... - Adhesion G-protein coupled receptor G2 (G-protein coupled receptor 64) (Human epididymis-specific protein 6) (He6) [Cleaved into: Adhesion G-protein coupled receptor G2, N-terminal fragment (ADGRG2 N-terminal fragment); Adhesion G-protein coupled receptor G2, C-terminal fragment (ADGRG2 C-terminal fragment)]
+   5. Q9FIL7 (CRCK1_ARATH) - Score: 37.7794 - ...[W][T][G][Y][S][S][P][S][S][F][G][R][S][T][E][R][K][V][S][G][Q]... - Calmodulin-binding receptor-like cytoplasmic kinase 1 (EC 2.7.11.1)
+   6. O49298 (PME6_ARATH) - Score: 37.7476 - ...[Y][P][S][V][C][D][H][H][M][S][N][S][P][L][K][T][L][D][D][Q][T]... - Probable pectinesterase/pectinesterase inhibitor 6 [Includes: Pectinesterase inhibitor 6 (Pectin methylesterase inhibitor 6); Pectinesterase 6 (PE 6) (EC 3.1.1.11) (Pectin methylesterase 6) (AtPME6)]
+   7. Q9LUD9 (GGPP3_ARATH) - Score: 37.7240 - ...[E][G][K][C][N][D][H][N][S][A][F][D][F][K][L][Y][M][I][R][K][A]... - Geranylgeranyl pyrophosphate synthase 3, chloroplastic (GGPP synthase 3) (GGPS3) (EC 2.5.1.-) ((2E,6E)-farnesyl diphosphate synthase 3) (Dimethylallyltranstransferase 3) (EC 2.5.1.1) (Farnesyl diphosphate synthase 3) (Farnesyltranstransferase 3) (EC 2.5.1.29) (Geranyltranstransferase 3) (EC 2.5.1.10)
+   8. A2AG06 (MEIOC_MOUSE) - Score: 37.7027 - ...[S][S][T][E][Y][A][S][S][I][D][S][S][L][F][Y][A][P][W][S][T][Y]... - Meiosis-specific coiled-coil domain-containing protein MEIOC (Meiosis-specific with coiled-coil domain protein)
+   9. P08478 (AMDA_XENLA) - Score: 37.6238 - ...[V][M][S][P][G][S][S][D][Y][T][L][D][I][R][M][P][G][V][T][P][T]... - Peptidyl-glycine alpha-amidating monooxygenase A (PAM-A) (Peptide C-terminal alpha-amidating enzyme I) (AE-I) (Peptidyl-glycine alpha-amidating monooxygenase I) [Includes: Peptidylglycine alpha-hydroxylating monooxygenase A (PHM-A) (EC 1.14.17.3); Peptidyl-alpha-hydroxyglycine alpha-amidating lyase A (EC 4.3.2.5) (Peptidylamidoglycolate lyase-A) (PAL-A)]
+   10. O13571 (YPR46_YEAST) - Score: 37.6016 - ...[Y][I][S][T][N][G][S][E][A][S][I][A][S][R][M][S][T][L][E][S][C]... - Putative uncharacterized protein YPR146C
+
+--- Rank #14 ---
+Node: Layer 10, Latent 4545
+Max Activation: 31.0910 (Attribution: 0.0029)
+Peak Location: Trace Idx 18 (AA #18)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F][I][H][V][M]D[N][S][D][P][N][W][W][K][G][A][C][H][G][Q][T][G][M][F][P][R]N[D][V][T][P][V][N][R][N][V]
+Trace Window : [16.596123  23.662659  25.12931   29.199467  27.081558  27.75541
+ 23.678513  22.995312  24.383526  23.884644  26.875492  25.097967
+ 25.721989  26.890457  25.25045   24.441893  23.19      31.091007
+ 28.70717   24.629362  27.644049  26.689148  24.077549  21.640661
+ 13.816041  11.476516   6.677322  10.620193   0.         5.748137
+  7.828482  11.79681   14.811839  13.112583  15.47437   19.747547
+ 19.300344  15.748226  14.218092  15.850044  11.299921  20.175625
+ 24.640974  23.613102   8.995118   7.0934587 12.957283  13.556606
+ 12.487217   0.         9.752361   9.949121  11.876981  13.239094
+ 11.226219  16.051222  14.406683  17.5781    19.143873 ]
+
+   [Global Top 10 Reference Entries for L10-4545]
+   1. H6C4I7 (CHS3_EXODN) - Score: 46.6916 - ...[S][N][D][N][S][A][F][P][F][G][N][T][A][T][P][I][I][N][T][I][L]... - Chitin synthase 3 (EC 2.4.1.16) (Chitin-UDP acetyl-glucosaminyl transferase 3) (Class-III chitin synthase 3)
+   2. A2QU15 (CHSB_ASPNC) - Score: 46.2684 - ...[L][V][G][T][P][S][A][S][N][G][H][T][G][F][P][F][G][K][T][A][T]... - Chitin synthase B (EC 2.4.1.16) (Chitin-UDP acetyl-glucosaminyl transferase B) (Class-III chitin synthase B)
+   3. Q9Z2C9 (MTMR7_MOUSE) - Score: 45.9980 - ...[P][T][A][P][C][N][F][T][Y][K][F][W][N][G][M][Y][N][R][F][E][K]... - Phosphatidylinositol-3-phosphate phosphatase MTMR7 (EC 3.1.3.64) (Inositol 1,3-bisphosphate phosphatase) (Myotubularin-related protein 7)
+   4. P54267 (CHSG_ASPFU) - Score: 45.9189 - ...[L][V][G][T][P][S][D][N][N][G][N][K][A][F][P][F][G][K][T][A][T]... - Chitin synthase G (EC 2.4.1.16) (Chitin-UDP acetyl-glucosaminyl transferase G) (Class-III chitin synthase G)
+   5. Q6P9J9 (ANO6_MOUSE) - Score: 45.8555 - ...[G][N][Y][T][L][C][R][Y][R][D][F][R][N][P][P][G][H][P][Q][E][Y]... - Anoctamin-6 (Small-conductance calcium-activated nonselective cation channel) (SCAN channel) (Transmembrane protein 16F)
+   6. P14180 (CHS2_YEAST) - Score: 45.5935 - ...[V][F][T][P][Q][D][T][D][N][G][Y][L][I][F][I][L][W][S][V][A][A]... - Chitin synthase 2 (EC 2.4.1.16) (Chitin-UDP acetyl-glucosaminyl transferase 2)
+   7. Q95Y52 (LGC46_CAEEL) - Score: 45.5613 - ...[Y][I][P][P][G][F][G][L][N][G][N][V][A][N][A][M][K][S][F][S][S]... - Probable ligand-gated ion channel 46
+   8. Q4I1J3 (PFA5_GIBZE) - Score: 45.5126 - ...[T][I][T][Y][P][L][S][P][P][G][D][D][S][R][A][P][G][T][A][H][S]... - Palmitoyltransferase PFA5 (EC 2.3.1.225) (Protein fatty acyltransferase 5)
+   9. Q9Y216 (MTMR7_HUMAN) - Score: 45.4920 - ...[M][Y][K][F][W][S][G][M][Y][N][R][F][E][K][G][M][Q][P][R][Q][S]... - Phosphatidylinositol-3-phosphate phosphatase MTMR7 (EC 3.1.3.64) (Inositol 1,3-bisphosphate phosphatase) (Myotubularin-related protein 7)
+   10. Q5R6F6 (MTMR7_PONAB) - Score: 45.2612 - ...[M][Y][K][F][W][S][G][M][Y][N][R][F][E][K][G][M][Q][P][R][Q][S]... - Phosphatidylinositol-3-phosphate phosphatase MTMR7 (EC 3.1.3.64) (Inositol 1,3-bisphosphate phosphatase) (Myotubularin-related protein 7)
+
+--- Rank #15 ---
+Node: Layer 10, Latent 958
+Max Activation: 29.9723 (Attribution: 0.0028)
+Peak Location: Trace Idx 18 (AA #18)
+Motif Context: [T][Y][V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F]I[H]VMDNS[D][P][N]W[W][K][G][A][C][H][G][Q][T]GMFPRNDVTPVNRN[V]
+Trace Window : [ 9.111983  13.923784  13.859982  16.772762  17.740955  17.576492
+ 13.503956  15.968908  21.574171  13.92926   19.175215  18.17209
+ 23.428404  25.833204  21.430347  24.295647  24.1201    29.97234
+ 27.084438  25.956367  26.182095  21.08415   18.12512   22.72375
+  0.         9.909851   0.         0.         0.         0.
+  0.         4.761217   7.1494226  6.7836018  0.         7.4405036
+ 11.460789   4.769714   5.865645   5.5671544  7.411922  14.696262
+ 16.35252   19.866705   0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         6.395362 ]
+
+   [Global Top 10 Reference Entries for L10-958]
+   1. P30906 (YCBL_BACUN) - Score: 46.4443 - ...[A][F][C][N][R][S][R][G][G][K][P][Y][C][T][G][S][R][R][S][V][R]... - Uncharacterized 17.3 kDa protein in cblS 5'region (ORF2)
+   2. G2WW48 (CGT_VERDV) - Score: 45.3709 - ...[V][R][M][S][W][V][K][L][N][N][V][D][I][G][L][L][L][C][S][S][A]... - UDP-glycosyltransferase (EC 2.4.1.-) (3-C-glycosyltransferase) (CGT)
+   3. B0XPG0 (PFF1_ASPFC) - Score: 45.3566 - ...[E][D][S][D][G][S][E][V][V][P][L][H][G][V][R][G][F][F][R][F][P]... - Vacuolar membrane protease (EC 3.4.-.-) (FXNA-related family protease 1)
+   4. P50983 (CA1_CONIM) - Score: 45.2934 - ...[C][C][S][D][P][R][C][A][W][R][C][G] - Alpha-conotoxin ImI (Alpha-CTx ImI)
+   5. Q4WJH4 (PFF1_ASPFU) - Score: 45.2130 - ...[E][D][S][D][G][S][E][V][V][P][L][H][G][V][R][G][F][F][R][F][P]... - Vacuolar membrane protease (EC 3.4.-.-) (FXNA-related family protease 1)
+   6. Q089R2 (RL7_SHEFN) - Score: 44.9509 - MS[I][T][K][D]Q[M]LEAFAAM... - Large ribosomal subunit protein bL12 (50S ribosomal protein L7/L12)
+   7. Q8I6R5 (CA12_CONIM) - Score: 44.9275 - I[V][R][R][A][C][C][S][D][R][R][C][R][W][R][C][G] - Alpha-conotoxin ImII (Alpha-CTx ImII)
+   8. P46508 (YME1_SCHMA) - Score: 44.9019 - ...[F][I][S][F][F][C][P][F][K][D][T][L][H][T][Y][T][H][T][H][K][L]... - ATP-dependent zinc metalloprotease YME1 homolog (EC 3.4.24.-)
+   9. P14215 (PPM1_LIMPO) - Score: 44.8166 - R[R][W][C][F][R][V][C][Y][R][G][F][C][Y][R][K]... - Polyphemusin-1 (Polyphemusin I)
+   10. P78556 (CCL20_HUMAN) - Score: 44.7605 - ...[W][V][K][Y][I][V][R][L][L][S][K][K][V][K][N][M] - C-C motif chemokine 20 (Beta-chemokine exodus-1) (CC chemokine LARC) (Liver and activation-regulated chemokine) (Macrophage inflammatory protein 3 alpha) (MIP-3-alpha) (Small-inducible cytokine A20) [Cleaved into: CCL20(1-67); CCL20(1-64); CCL20(2-70)]
+
+--- Rank #16 ---
+Node: Layer 9, Latent 1688
+Max Activation: 9.5491 (Attribution: 0.0025)
+Peak Location: Trace Idx 44 (AA #44)
+Motif Context: VQAL[F][D][F][D]PQ[E]DGELGFR[R]G[D]FIHV[M]DN[S][D]P[N]WW[K]GA[C][H][G][Q][T]G[M][F]PRNDVTPV[N]RN
+Trace Window : [0.         0.         0.         0.         0.9995606  0.7270068
+ 2.2528198  7.0824323  0.         0.         4.1677938  0.
+ 0.         0.         0.         0.         0.         0.
+ 1.5871696  0.         0.439936   0.         0.         0.
+ 0.         2.4333332  0.         0.         4.614491   0.5036527
+ 0.         0.77102506 0.         0.         1.4574956  0.
+ 0.         1.6173441  0.500692   2.823921   0.26360878 9.549067
+ 0.         2.3905203  5.6875563  0.         0.         0.
+ 0.         0.         0.         0.         0.         1.6398982
+ 0.         0.        ]
+
+   [Global Top 10 Reference Entries for L9-1688]
+   1. Q65ST2 (UVRB_MANSM) - Score: 27.5103 - ...F[I]LHS[E]FKPS[G]D[Q]PQAIEILA... - UvrABC system protein B (Protein UvrB) (Excinuclease ABC subunit B)
+   2. B4M891 (RTEL1_DROVI) - Score: 26.8056 - ...NG[V][L][E][S]P[T][G]T[G][K]TLSLLCASL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+   3. B4L1Z2 (RTEL1_DROMO) - Score: 26.6694 - ...NGV[L][E][S][P][T][G]T[G][K]TLSLLCSSL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+   4. B3MSG8 (RTEL1_DROAN) - Score: 26.5830 - ...NGV[L]E[S][P][T][G]T[G][K]TLSLLCSSL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+   5. B4PZB4 (RTEL1_DROYA) - Score: 26.5510 - ...NGV[L]E[S][P][T][G]T[G][K]TLSLLCSSL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+   6. P31808 (YCIK_ECOLI) - Score: 26.4671 - ...ILV[T][G][A][S][D][G]I[G]REAAMTYARY... - Uncharacterized oxidoreductase YciK (EC 1.-.-.-)
+   7. B1Y5G6 (MIAA_LEPCP) - Score: 26.4625 - ...WLAIAGP[T][A]S[G]K[T]GA[A]LAI[A]R... - tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)
+   8. Q9W484 (RTEL1_DROME) - Score: 26.4267 - ...NGV[L]E[S][P][T][G]T[G][K]TLSLLCSSL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+   9. O95786 (RIGI_HUMAN) - Score: 26.4221 - ...[N][T]IIC[A][P][T][G]C[G][K][T]FVSLLICE... - Antiviral innate immune response receptor RIG-I (ATP-dependent RNA helicase DDX58) (EC 3.6.4.13) (DEAD box protein 58) (RIG-I-like receptor 1) (RLR-1) (RNA sensor RIG-I) (Retinoic acid-inducible gene 1 protein) (RIG-1) (Retinoic acid-inducible gene I protein) (RIG-I)
+   10. B3NSW1 (RTEL1_DROER) - Score: 26.4164 - ...NGV[L]E[S][P][T][G]T[G][K]TLSLLCSSL... - Regulator of telomere elongation helicase 1 homolog (EC 5.6.2.-)
+
+--- Rank #17 ---
+Node: Layer 10, Latent 225
+Max Activation: 10.6340 (Attribution: 0.0023)
+Peak Location: Trace Idx 45 (AA #45)
+Motif Context: GDFI[H][V]MDNSDPN[W]WKG[A]CHGQT[G][M]F[P]R[N][D]VT
+Trace Window : [ 0.         0.         0.         0.         4.7253494  3.8859344
+  0.         0.         0.         0.         0.         0.
+  0.         3.265308   0.         0.         0.         5.5915446
+  0.         0.         0.         0.         0.        10.633996
+  8.42703    0.         7.10122    0.         9.810025   8.236358
+  0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-225]
+   1. Q2RFP4 (EFG_MOOTA) - Score: 26.0089 - ...REYPLEK[T]RN[I]G[I][M][A]H[I]DAGK... - Elongation factor G (EF-G)
+   2. Q1GIC1 (ISPG_RUEST) - Score: 25.8535 - ...G[N][V]P[V]G[G][D][A]P[I][A][V]Q[T][M]TNTLT... - 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) (EC 1.17.7.3) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)
+   3. C4LL63 (EFTU_CORK4) - Score: 25.5984 - ...KFDR[S]K[P][H][V][N][I][G][T][I][G][H][V]DHGK... - Elongation factor Tu (EF-Tu) (EC 3.6.5.3)
+   4. Q2J717 (ISPG_FRACC) - Score: 25.5144 - ...G[N][V]L[V]G[G][D][A][P][V][S][V][Q]S[M]C[T]TLT... - 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) (EC 1.17.7.3) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)
+   5. Q1QTK8 (ISPG_CHRSD) - Score: 25.4931 - ...G[H][V]P[V][G][G][D][A][P][I][A][V]Q[S][M]T[N]TDT... - 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) (EC 1.17.7.3) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)
+   6. P23568 (EFTU_MYCPN) - Score: 25.4834 - ...KFDRSKP[H][V]N[V][G][T][I][G]H[I]D[H][G]K... - Elongation factor Tu (EF-Tu) (EC 3.6.5.3)
+   7. Q9C1D4 (HIS7_PICST) - Score: 25.4582 - ...TIKRD[T][N]ET[K][I]Q[I]A[L]S[L]DGG[F]... - Imidazoleglycerol-phosphate dehydratase (IGPD) (EC 4.2.1.19)
+   8. Q11Q98 (EFTU_CYTH3) - Score: 25.4580 - ...NFDRSK[P][H][V][N][V][G][T][I][G][H][V]DH[G]K... - Elongation factor Tu (EF-Tu) (EC 3.6.5.3)
+   9. C4KZP9 (EFTU_EXISA) - Score: 25.4020 - ...KFDRSK[P][H][V]N[V][G][T][I][G][H][V]DH[G]K... - Elongation factor Tu (EF-Tu) (EC 3.6.5.3)
+   10. A6TWI4 (EFTU1_ALKMQ) - Score: 25.3938 - ...KFERSKP[H][V]N[I][G][T][I][G][H][V]DHGK... - Elongation factor Tu 1 (EF-Tu 1) (EC 3.6.5.3)
+
+--- Rank #18 ---
+Node: Layer 10, Latent 707
+Max Activation: 12.4903 (Attribution: 0.0021)
+Peak Location: Trace Idx 48 (AA #48)
+Motif Context: DNSD[P][N]WWK[G][A]C[H]GQT[G]MF[P]RND[V][T]P[V]NR
+Trace Window : [ 0.         0.         0.         0.         6.3073697  5.512423
+  0.         0.         0.         8.68893    8.876583   0.
+  4.834539   0.         0.         0.         7.0464005  0.
+  0.        12.490346   0.         0.         0.         6.749636
+  5.5966115  0.         3.3485117  0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-707]
+   1. O27464 (PYRB_METTH) - Score: 31.0151 - ...LG[M]MFYEPST[R]T[R]LSFETAM[K]... - Aspartate carbamoyltransferase catalytic subunit (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)
+   2. A1WYI8 (GCH4_HALHL) - Score: 30.6715 - ...P[Q][H]F[K]G[T]HMS[R]F[V][S]IL[E]GH[D]R... - GTP cyclohydrolase FolE2 (EC 3.5.4.16)
+   3. A0L8I1 (GCH4_MAGMM) - Score: 30.6542 - ...P[H]QF[K]GTHMS[R]F[L][E]VL[A]ENQ[R]... - GTP cyclohydrolase FolE2 (EC 3.5.4.16)
+   4. Q12ZP0 (PYRB_METBU) - Score: 30.4307 - ...LG[V]LFF[E]PST[R]T[R]MSFETAM[M]... - Aspartate carbamoyltransferase catalytic subunit (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)
+   5. A9A2Q5 (PYRB_NITMS) - Score: 30.4292 - ...L[G][Y][L]FY[E]PST[R]T[R]LSFEAAM[A]... - Aspartate carbamoyltransferase catalytic subunit (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)
+   6. P0A4L9 (GYRB_STRPN) - Score: 30.3759 - ...I[Q]VL[E]GLEAV[R][M][R]P[G]MYIGST... - DNA gyrase subunit B (EC 5.6.2.2)
+   7. P0A4M0 (GYRB_STRR6) - Score: 30.3759 - ...I[Q]VL[E]GLEAV[R][M][R]P[G]MYIGST... - DNA gyrase subunit B (EC 5.6.2.2)
+   8. Q839Z1 (GYRB_ENTFA) - Score: 30.2480 - ...I[Q]VLEGLEAV[R][K][R]PGMYIGST... - DNA gyrase subunit B (EC 5.6.2.2)
+   9. Q6NJ52 (RL13_CORDI) - Score: 30.2062 - ...VIDATD[V]VLG[R]LAT[H]AA[D]LL[R]... - Large ribosomal subunit protein uL13 (50S ribosomal protein L13)
+   10. Q8FS20 (RL13_COREF) - Score: 30.1648 - ...VIDATD[V]VLG[R]LAT[H]AA[D]LL[R]... - Large ribosomal subunit protein uL13 (50S ribosomal protein L13)
+
+--- Rank #19 ---
+Node: Layer 10, Latent 3229
+Max Activation: 10.1732 (Attribution: 0.0018)
+Peak Location: Trace Idx 27 (AA #27)
+Motif Context: GDFIH[V]M[D][N]SDPNWWKGACHGQTGMF[P]RN[D][V]T[P][V]NR
+Trace Window : [ 0.         0.         0.         0.         0.        10.173247
+  0.         6.936948   4.3373833  0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         0.         0.         0.         0.
+  0.         0.         6.241108   0.         0.         5.6840496
+  8.10014    0.         7.9785824  6.878768   0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-3229]
+   1. A4FXD3 (AATB_METM5) - Score: 23.9088 - ...GR[I]FNGAG[K][P][L][D]GGP[E][I][I]A[E][K]... - A-type ATP synthase subunit B
+   2. Q08637 (NTPB_ENTHA) - Score: 23.8125 - ...G[R][V][F]DG[L]G[R]P[K][D]NGP[E][I][L]P[E][K]... - V-type sodium ATPase subunit B (Na(+)-translocating ATPase subunit B) (V-type sodium pump subunit B)
+   3. Q8P2U5 (VATB_STRP8) - Score: 23.5984 - ...G[R][I]FDGMG[Q]P[I][D]GGPE[L][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   4. B2UWY3 (VATB_CLOBA) - Score: 23.5901 - ...G[R][V][F]DG[M]G[R]P[N][D]NGP[D][I][I][P][E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   5. A2RC98 (VATB_STRPG) - Score: 23.5519 - ...G[R][I]FDG[M]G[Q]P[I][D]GGPE[L][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   6. P0DA08 (VATB_STRP3) - Score: 23.5420 - ...G[R][I]FDG[M]G[Q]P[I][D]GGPE[L][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   7. P0DA09 (VATB_STRPQ) - Score: 23.5420 - ...G[R][I]FDG[M]G[Q]P[I][D]GGPE[L][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   8. Q0SSI3 (VATB_CLOPS) - Score: 23.5370 - ...GR[V]FDG[M]G[R]P[K][D]NGP[N][I][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   9. Q0TPW8 (VATB_CLOP1) - Score: 23.5309 - ...GR[V]FDG[M]G[R]P[K][D]NGP[N][I][I]P[E]K... - V-type ATP synthase beta chain (V-ATPase subunit B)
+   10. B5XJH4 (VATB_STRPZ) - Score: 23.5276 - ...G[R][I]FDG[M]G[Q]P[I][D]GGPE[L][I]P[E][K]... - V-type ATP synthase beta chain (V-ATPase subunit B)
+
+--- Rank #20 ---
+Node: Layer 10, Latent 829
+Max Activation: 12.4895 (Attribution: 0.0015)
+Peak Location: Trace Idx 44 (AA #44)
+Motif Context: FIHV[M]DN[S]DPNWW[K]GACHGQ[T]GM[F]PR
+Trace Window : [ 0.         0.         0.         0.         7.0173197  0.
+  0.         7.1557684  0.         0.         0.         0.
+  0.         6.1708155  0.         0.         0.         0.
+  0.         0.        12.489529   0.         0.         6.360442
+  0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-829]
+   1. A8ZWG2 (ECTC_DESOH) - Score: 33.7166 - ...NHLEAVYCVA[G]N[G]TIE[D][L][A][T][G]... - L-ectoine synthase (EC 4.2.1.108) (N-acetyldiaminobutyrate dehydratase)
+   2. Q0CPG9 (ASTD_ASPTN) - Score: 32.9132 - ...VS[D][G]ISM[G]TK[G]MRYSLQS[R]EL... - Dihydroxy-acid dehydratase astD, mitochondrial (DHAD astD) (EC 4.2.1.9) (Aspterric acid biosynthesis cluster protein D)
+   3. Q2RJD5 (DDL_MOOTA) - Score: 32.1864 - ...VVFNALH[G]K[P][G]ED[G]SVQ[G]LLE... - D-alanine--D-alanine ligase (EC 6.3.2.4) (D-Ala-D-Ala ligase) (D-alanylalanine synthetase)
+   4. A9WHR4 (RL9_CHLAA) - Score: 31.7662 - ...LQDVE[H]L[G]KA[G]EIKD[V]S[G][G]FG... - Large ribosomal subunit protein bL9 (50S ribosomal protein L9)
+   5. B0TZC0 (ILVD_FRAP2) - Score: 31.6211 - ...VSD[G]ISM[G]TD[G]MSYSLQS[R]DL... - Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)
+   6. Q63QX0 (SYY_BURPS) - Score: 31.3898 - ...LDPTAPDIHL[G]HTVVLNKMRQ... - Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)
+   7. Q3JNS0 (SYY_BURP1) - Score: 31.3726 - ...LDPTAPDIHL[G]HTVVLNKMRQ... - Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)
+   8. B2UYM8 (SYY_CLOBA) - Score: 31.3684 - ...FDPTADSLHV[G]HFIAMMFMAH... - Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)
+   9. B2TQ95 (SYY_CLOBB) - Score: 31.3629 - ...FDPTADSLHV[G]HFIAMMFMAH... - Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)
+   10. Q9RNM9 (DDL_ZYMMO) - Score: 31.3576 - ...VVFNALH[G]TP[G]ED[G]SI[Q][G]LMD... - D-alanine--D-alanine ligase (EC 6.3.2.4) (D-Ala-D-Ala ligase) (D-alanylalanine synthetase)
+
+--- Rank #21 ---
+Node: Layer 1, Latent 2693
+Max Activation: 7.3170 (Attribution: 0.0015)
+Peak Location: Trace Idx 51 (AA #51)
+Motif Context: QALF[D]F[D]PQE[D]GELGFRRG[D]FIHVM[D]NS[D]PNWWKGACHGQTGMFPRN[D]VTPVN
+Trace Window : [0.        0.        0.        0.        6.7873244 0.        6.63102
+ 0.        0.        0.        6.3188252 0.        0.        0.
+ 0.        0.        0.        0.        0.        5.4793115 0.
+ 0.        0.        0.        0.        6.654043  0.        0.
+ 6.727231  0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        7.316999  0.
+ 0.        0.        0.        0.       ]
+
+   [Global Top 10 Reference Entries for L1-2693]
+   1. P17085 (IGF1_ONCKI) - Score: 8.3051 - ...GHLFQWHLCD[V]FKSAMCCISC... - Insulin-like growth factor 1 (Insulin-like growth factor I) (IGF-I) (Somatomedin)
+   2. Q99M15 (PPIP2_MOUSE) - Score: 8.3006 - ...LFKGNFWSTD[I]LSTIGYD[S]II... - Proline-serine-threonine phosphatase-interacting protein 2 (PEST phosphatase-interacting protein 2) (Macrophage actin-associated tyrosine-phosphorylated protein) (pp37)
+   3. Q7NJ41 (RSMA_GLOVI) - Score: 8.2959 - ...KRFGQHWLND[G]AVLD[R]IVAAA... - Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)
+   4. Q02815 (IGF1_ONCMY) - Score: 8.2880 - ...GHFFQWHLCD[V]FKSAMCCVSC... - Insulin-like growth factor 1 (Insulin-like growth factor I) (IGF-I) (Somatomedin)
+   5. Q5P9K5 (SYY_ANAMM) - Score: 8.2777 - ...VRGYLHQCTD[D][V]ALD[E]LMALQ... - Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)
+   6. Q5FUK4 (MRAZ_GLUOX) - Score: 8.2714 - ...FLGTHQNRFD[A]KGRVSIPASF... - Transcriptional regulator MraZ
+   7. Q6CRH2 (ASA1_KLULA) - Score: 8.2681 - ...GVTSLLHWND[E]QD[V]PTLISGD... - ASTRA-associated protein 1
+   8. P55470 (Y4GN_SINFN) - Score: 8.2238 - ...LFLWHNPQTD[N]QCRNERHMIH... - Uncharacterized protein y4gN
+   9. P12700 (COX1_PARLI) - Score: 8.2148 - ...RWLFSTNHKD[I]GTLYLIFGAW... - Cytochrome c oxidase subunit 1 (EC 7.1.1.9) (Cytochrome c oxidase polypeptide I)
+   10. P15544 (COX1_STRPU) - Score: 8.2148 - ...RWLFSTNHKD[I]GTLYLIFGAW... - Cytochrome c oxidase subunit 1 (EC 7.1.1.9) (Cytochrome c oxidase polypeptide I)
+
+--- Rank #22 ---
+Node: Layer 8, Latent 1825
+Max Activation: 3.6703 (Attribution: 0.0014)
+Peak Location: Trace Idx 4 (AA #4)
+Motif Context: T[Y][V][Q][A][L][F][D][F]DP[Q][E][D][G][E][L][G][F][R][R][G][D][F]I[H]VMD[N]SDPNWWK[G][A]CH[G][Q][T][G]MFP[R][N][D][V][T][P][V][N][R][N][V]
+Trace Window : [0.         0.66146    1.0019464  3.670302   1.1672883  1.7212024
+ 1.2522514  1.0859411  3.149563   0.         0.         0.40213805
+ 1.5779119  1.3858702  0.54962665 1.2952373  0.58509165 1.3487134
+ 1.3003263  2.9389873  2.000268   2.439592   1.3612676  1.855962
+ 0.         2.2890754  0.         0.         0.         0.35318
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.05771333 0.08844584 0.         0.         0.835141
+ 0.8966729  0.6624566  0.75406677 0.         0.         0.
+ 1.2524326  0.7072914  1.3257849  1.3057787  1.1175535  1.274396
+ 0.4590752  1.0053046  0.54820853 0.90923613 0.9118621 ]
+
+   [Global Top 10 Reference Entries for L8-1825]
+   1. Q70LC0 (Y307_AFV1Y) - Score: 7.8379 - ...[V][P][F][P][V][P][L][P][I][T][E][Q][T][T][P][Q][I][P][P][P][S]... - Uncharacterized protein ORF307
+   2. Q9Z0F0 (B3GT4_MOUSE) - Score: 7.7546 - ...[P][L][A][L][P][R][L][L][I][S][N][S][H][A][C][G][G][S][G][P][P]... - Beta-1,3-galactosyltransferase 4 (Beta-1,3-GalTase 4) (Beta3Gal-T4) (Beta3GalT4) (b3Gal-T4) (EC 2.4.1.62) (Gal-T2) (Ganglioside galactosyltransferase) (UDP-galactose:beta-N-acetyl-galactosamine-beta-1,3-galactosyltransferase)
+   3. O29762 (Y488_ARCFU) - Score: 7.4867 - ...[P][L][P][Y][I][S][I][L][L][C][M][A][L][A][V][I][S][A][T][I][T]... - Uncharacterized protein AF_0488
+   4. C4JH04 (NPIIC_UNCRE) - Score: 7.3396 - ...[S][T][L][G][K][R][S][R][V][D][G][R][T][C][Q][G][R][A][G][Q][I]... - Neutral protease 2 homolog UREG_01255 (EC 3.4.24.39) (Deuterolysin UREG_01255)
+   5. Q94KU5 (PAP3_BRACM) - Score: 7.2403 - ...[F][E][V][R][T][P][S][R][I][E][V][S][F][K][E][G][T][L][K][P][P]... - Plastid lipid-associated protein 3, chloroplastic
+   6. P00645 (CEAC_ECOLX) - Score: 7.2288 - ...[I][P][G][L][P][A][L][Q][V][S][V][P][K][G][V][P][A][A][K][A][P]... - Cloacin (EC 3.1.-.-) (Ribonuclease)
+   7. Q9FGN1 (WAXSB_ARATH) - Score: 7.1553 - ...[L][S][G][Y][T][A][L][F][I][S][W][L][A][N][F][K][L][I][L][F][S]... - Probable long-chain-alcohol O-fatty-acyltransferase 11 (EC 2.3.1.75) (Wax synthase 11)
+   8. Q06155 (VAP1_STRPU) - Score: 7.1169 - ...[D][V][D][I][K][G][P][K][V][G][G][D][I][S][G][P][D][L][D][V][S]... - Vesicle-associated protein (VAP-1)
+   9. Q60371 (Y067_METJA) - Score: 7.1116 - ...[G][D][K][I][I][G][L][I][H][S][F][S][F][G][T][S][F][L][I][G][F]... - Uncharacterized protein MJ0067
+   10. D4A2B7 (AFG2B_RAT) - Score: 7.0711 - ...[G][R][V][T][P][H][T][R][I][T][L][S][D][K][P][P][P][Q][V][E][P]... - ATPase family gene 2 protein homolog B (EC 3.6.4.10) (AFG2 AAA ATPase homolog B) (Ribosome biogenesis protein SPATA5L1) (Spermatogenesis-associated protein 5-like protein 1)
+
+--- Rank #23 ---
+Node: Layer 10, Latent 4445
+Max Activation: 15.7122 (Attribution: 0.0014)
+Peak Location: Trace Idx 50 (AA #50)
+Motif Context: DFIH[V]M[D]NSDPN[W]WKG[A][C][H]GQT[G][M]FP[R][N][D][V][T]P[V][N]RN
+Trace Window : [ 0.         0.         0.         0.         3.9348438  0.
+  4.6849074  0.         0.         0.         0.         0.
+  4.5184402  0.         0.         0.         6.2407823  6.7639027
+  7.143187   0.         0.         0.         7.671902  10.523094
+  0.         0.         9.228474  15.71221    5.3593326  5.7912
+  5.74363    0.         5.334601   3.91902    0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-4445]
+   1. Q1LNJ3 (ALR_CUPMC) - Score: 25.3973 - ...R[I][W][A][V]V[K]A[N]A[Y]GHGIRRV[F]AG... - Alanine racemase (EC 5.1.1.1)
+   2. Q12H34 (ALR_POLSJ) - Score: 25.3049 - ...R[V][W][A][V][V]KA[N]A[Y]GHGIEHV[F]DG... - Alanine racemase (EC 5.1.1.1)
+   3. P54967 (BIOB_ARATH) - Score: 25.2517 - ...[K]T[G]G[C]SED[C]S[Y][C]PQSSR[Y]STG... - Biotin synthase, mitochondrial (EC 2.8.1.6)
+   4. Q5JIY3 (IPYR_THEKO) - Score: 25.1665 - ...IEIPKGSRNK[Y]E[L]DKKTG[L]L[K]... - Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)
+   5. Q8Z688 (ALR2_SALTI) - Score: 25.0995 - ...R[V][W][S][V]V[K]A[N]A[Y]GHGIERV[W]SA... - Alanine racemase, catabolic (EC 5.1.1.1)
+   6. P06191 (ALR2_SALTY) - Score: 25.0954 - ...R[V][W][S][V]V[K]A[N]A[Y]GHGIERV[W]SA... - Alanine racemase, catabolic (EC 5.1.1.1)
+   7. A6LMP4 (BIOF_THEM4) - Score: 25.0849 - ...KK[V]L[N][L][C]S[N]N[Y]LG[F]ANEERLK... - 8-amino-7-oxononanoate synthase (AONS) (EC 2.3.1.47) (7-keto-8-amino-pelargonic acid synthase) (7-KAP synthase) (KAPA synthase) (8-amino-7-ketopelargonate synthase)
+   8. P29012 (ALR2_ECOLI) - Score: 25.0051 - ...RVWS[V]VKA[N]A[Y]GHGIERI[W]SA... - Alanine racemase, catabolic (EC 5.1.1.1)
+   9. P77992 (IPYR_THELN) - Score: 24.9876 - ...IEIPKGSRNK[Y]E[L]DKKTG[L]I[K]... - Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)
+   10. B3R2F9 (ALR_CUPTR) - Score: 24.9549 - ...R[V][W][A][V]VKA[N]A[Y]GHGIRRV[F]AA... - Alanine racemase (EC 5.1.1.1)
+
+--- Rank #24 ---
+Node: Layer 9, Latent 2202
+Max Activation: 6.4837 (Attribution: 0.0010)
+Peak Location: Trace Idx 9 (AA #9)
+Motif Context: TY[V][Q][A][L][F][D][F][D][P]Q[E][D]G[E][L][G][F][R][R][G][D][F][I]HVMDNSDPN[W][W][K]GA[C][H][G][Q][T]G[M][F]PRNDVTP[V][N]RN[V]
+Trace Window : [0.         0.         3.4683824  1.7876809  3.2979567  5.4590487
+ 2.706235   2.7633288  6.483681   1.2588124  0.97940016 0.
+ 3.525927   0.56461465 0.         1.5214407  4.469403   3.2000835
+ 4.2478995  5.9462214  5.035402   1.0881369  2.558129   0.7307961
+ 1.3282832  0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.3676319  1.3927083
+ 0.11240625 0.         0.         2.2467883  0.99821687 3.741939
+ 0.7468474  2.7261865  0.         4.080388   3.4025416  0.
+ 0.         0.         0.         0.         0.         0.
+ 0.55526817 0.52936864 0.         0.         1.1861837 ]
+
+   [Global Top 10 Reference Entries for L9-2202]
+   1. Q6FIK5 (DYN3_CANGA) - Score: 16.2163 - ...[Q][Q][S][L][R][S][V][L][F][Y][R][N][G][S][L][I][Y][V][D][K][K]... - Cytoplasmic dynein intermediate light chain DYN3 (Dynein protein 3)
+   2. O34104 (T2S1_LACLC) - Score: 14.7957 - ...[T][C][T][T][D][S][I][G][A][Y][D][K][I][C][F][G][R][P][I][T][F]... - Type II restriction enzyme ScrFI (R.ScrFI) (EC 3.1.21.4) (Endonuclease ScrFI) (Type-2 restriction enzyme ScrFI)
+   3. Q2UDJ8 (RGLB_ASPOR) - Score: 14.7647 - ...[Y][T][F][S][N][C][M][G][L][F][K][T][Y][W][Y][A][A][S][A][N][L]... - Probable rhamnogalacturonate lyase B (EC 4.2.2.23)
+   4. Q5UQU5 (YL360_MIMIV) - Score: 14.6251 - ...[K][T][I][L][K][G][L][F][A][Y][K][I][K][K][I][I][I][G][I][I][E]... - Uncharacterized protein L360
+   5. P41481 (VP18_NPVAC) - Score: 14.6137 - ...[S][A][F][G][S][N][V][I][N][Y][C][E][Q][F][I][T][A][I][F][E][I]... - P18 protein
+   6. Q9V6L0 (KDM4B_DROME) - Score: 14.5753 - ...[Q][I][D][G][V][N][T][A][Y][L][Y][F][G][M][W][K][T][T][F][A][W]... - Probable lysine-specific demethylase 4B (EC 1.14.11.66) (Probable JmjC domain-containing histone demethylation protein 3B) (Probable [histone H3]-trimethyl-L-lysine(9) demethylase 4B)
+   7. Q5NDE8 (PMGT2_CHICK) - Score: 14.5513 - ...[K][T][L][G][R][L][L][C][F][T][K][S][Y][V][G][L][S][K][I][T][T]... - Protein O-linked-mannose beta-1,4-N-acetylglucosaminyltransferase 2 (POMGnT2) (EC 2.4.1.312) (Extracellular O-linked N-acetylglucosamine transferase-like) (Glycosyltransferase-like domain-containing protein 2)
+   8. S0DX56 (EREMS_GIBF5) - Score: 14.4317 - ...[F][P][L][G][D][L][L][W][S][F][Q][T][G][R][Y][L][G][A][T][E][G]... - (+)-eremophilene synthase (EC 4.2.3.164) (Sesquiterpene cyclase) (Terpene synthase) (Type I terpene cyclase)
+   9. O70582 (LX12B_MOUSE) - Score: 14.3813 - ...[F][Y][R][L][G][P][M][A][L][A][F][K][L][R][G][L][V][D][R][K][R]... - Arachidonate 12-lipoxygenase, 12R-type (12R-LOX) (12R-lipoxygenase) (EC 1.13.11.-) (Epidermis-type lipoxygenase 12) (Epidermis-type lipoxygenase 2) (e-LOX 2)
+   10. Q5NDE7 (PMGT2_XENLA) - Score: 14.3650 - ...[K][T][L][G][R][L][L][C][F][T][K][S][Y][V][G][L][S][K][I][T][T]... - Protein O-linked-mannose beta-1,4-N-acetylglucosaminyltransferase 2 (POMGnT2) (EC 2.4.1.312) (Extracellular O-linked N-acetylglucosamine transferase-like) (Glycosyltransferase-like domain-containing protein 2)
+
+--- Rank #25 ---
+Node: Layer 10, Latent 3339
+Max Activation: 8.6607 (Attribution: 0.0010)
+Peak Location: Trace Idx 34 (AA #34)
+Motif Context: DNSDP[N]WWKG[A]C[H]GQT[G]MFPRN[D]VT
+Trace Window : [0.        0.        0.        0.        0.        8.660683  0.
+ 0.        0.        0.        6.4248314 0.        6.9116325 0.
+ 0.        0.        8.366246  0.        0.        0.        0.
+ 0.        4.923457  0.        0.       ]
+
+   [Global Top 10 Reference Entries for L10-3339]
+   1. Q483C7 (SYDND_COLP3) - Score: 33.0377 - ...HIGQEITLCG[W]VNKRRDLGAV... - Aspartate--tRNA(Asp/Asn) ligase (EC 6.1.1.23) (Aspartyl-tRNA synthetase) (AspRS) (Non-discriminating aspartyl-tRNA synthetase) (ND-AspRS)
+   2. Q74D56 (SYDND_GEOSL) - Score: 31.5689 - ...DVGKQVTLMG[W]VMRRRDHGGL... - Aspartate--tRNA(Asp/Asn) ligase (EC 6.1.1.23) (Aspartyl-tRNA synthetase) (AspRS) (Non-discriminating aspartyl-tRNA synthetase) (ND-AspRS)
+   3. P18052 (PTPRA_MOUSE) - Score: 31.2059 - ...ERGQ[E]K[C]A[Q][Y][W][P]SDGL[V]SYGD... - Receptor-type tyrosine-protein phosphatase alpha (Protein-tyrosine phosphatase alpha) (R-PTP-alpha) (EC 3.1.3.48) (LCA-related phosphatase) (PTPTY-28)
+   4. C5B9S7 (SYD_EDWI9) - Score: 31.1918 - ...HVGQEVTLCG[W]VHRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   5. B1JLL5 (SYD_YERPY) - Score: 31.0241 - ...HVGQSVTLCG[W]VNRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   6. A9QYX8 (SYD_YERPG) - Score: 31.0050 - ...HVGQSVTLCG[W]VNRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   7. Q8ZEV0 (SYD_YERPE) - Score: 30.9898 - ...HVGQSVTLCG[W]VNRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   8. A4TJK5 (SYD_YERPP) - Score: 30.9559 - ...HVGQSVTLCG[W]VNRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   9. Q66AU4 (SYD_YERPS) - Score: 30.9306 - ...HVGQSVTLCG[W]VNRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+   10. A4SPN5 (SYD_AERS4) - Score: 30.8881 - ...HAGQTITLCG[W]VHRRRDLGGL... - Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)
+
+--- Rank #26 ---
+Node: Layer 8, Latent 67
+Max Activation: 3.1814 (Attribution: 0.0010)
+Peak Location: Trace Idx 4 (AA #4)
+Motif Context: T[Y][V][Q][A][L][F][D]FDP[Q][E][D]GE[L]G[F][R][R][G][D][F][I][H][V][M][D]N[S]DPNWWK[G][A]CHG[Q][T][G]MFPRND[V]TP
+Trace Window : [0.         1.9931257  1.3999407  3.181381   0.84930825 2.2062862
+ 2.076762   0.34230188 0.         0.         0.         1.4084471
+ 0.86036813 0.7262397  0.         0.         1.5702182  0.
+ 0.78734124 0.0924516  0.62946916 0.36851397 0.93467546 2.7039149
+ 0.777022   0.41904148 1.4407847  1.0277326  1.112037   0.
+ 0.25110617 0.         0.         0.         0.         0.
+ 0.         0.515499   1.2311168  0.         0.         0.
+ 0.2836974  0.3632554  0.74396145 0.         0.         0.
+ 0.         0.         0.         1.2289398  0.         0.        ]
+
+   [Global Top 10 Reference Entries for L8-67]
+   1. O85041 (CSOS2_HALNC) - Score: 9.7302 - ...[S][C][R][S][I][S]G[T][E][Y][L]S[N][E][Q][F][Q][S][F][C][D]... - Carboxysome assembly protein CsoS2B (Carboxysome shell protein CsoS2B)
+   2. Q2R4J4 (C3H63_ORYSJ) - Score: 9.6494 - ...[R][I][G][Q][P][E][C][Q][Y][Y][L][K][T]G[T][C][K]FG[A][T]... - Zinc finger CCCH domain-containing protein 63 (OsC3H63)
+   3. Q7V2C8 (CSOS2_PROMP) - Score: 9.5529 - ...[T][C][K][N][L][T][G][T][E][Y][I][S][A][N][Q][S][K][K][Y][C][G]... - Carboxysome assembly protein CsoS2 (Carboxysome shell protein CsoS2)
+   4. U4N938 (AMP_STEME) - Score: 9.4583 - ...[D][P][Q][I][S][K][M][C][Q][K][M][C][Q][G][K]G[Y][V][C][E][S]... - Antimicrobial peptide X precursor [Cleaved into: Antimicrobial peptide X]
+   5. Q6NPN3 (C3H58_ARATH) - Score: 9.4561 - ...K[E][C][S][Y][F][M][R][T]G[Q][C][K]FG[S][T][C][R]Y[H]... - Zinc finger CCCH domain-containing protein 58 (AtC3H58) (Zinc finger CCCH domain-containing protein ZFN-like 3)
+   6. Q500V5 (AGDP1_ARATH) - Score: 9.4487 - ...[H][S][Q][L][R][L][H][Q][E][W][I]DG[K][W][I][T]S[F][K][S]... - Protein AGENET DOMAIN (AGD)-CONTAINING P1 (Protein ONE AGENET DOMAIN-CONTAINING PROTEIN)
+   7. O07629 (YLAE_BACSU) - Score: 9.4315 - ...[G][N][Y][K][F][D]T[E][K][A][V][E][L]G[F][T][E][K][E][A][L]... - Uncharacterized protein YlaE
+   8. O82281 (BRXL1_ARATH) - Score: 9.4275 - ...[E][D][E][P][G][V]Y[I][T][I][R][Q][L][P][D]GT[R][E][L][R]... - Protein Brevis radix-like 1 (AtBRXL1)
+   9. Q28409 (PENK_FELCA) - Score: 9.3784 - ...[E][I][L][A][K][R][Y][G]GF[M][K][K][D]A[E][E][E][E][D][A]... - Proenkephalin-A [Cleaved into: Synenkephalin; Met-enkephalin; Leu-enkephalin]
+   10. Q9QJ13 (B8_HHV6Z) - Score: 9.3753 - ...[V]FLH[K][V][K]D[Q]W[V]P[R][L][K]YF[L][P][I][R]... - Protein B8
+
+--- Rank #27 ---
+Node: Layer 8, Latent 2748
+Max Activation: 4.0174 (Attribution: 0.0006)
+Peak Location: Trace Idx 7 (AA #7)
+Motif Context: TY[V][Q][A][L][F][D][F][D][P][Q][E][D][G][E][L][G][F][R][R][G][D][F]I[H][V]M[D]NSDPNWWKGAC[H][G]QT[G]MFP[R][N][D][V][T]P[V][N]R[N][V]
+Trace Window : [0.         0.         3.1007888  1.8497405  3.1265836  3.298534
+ 4.017399   2.3144314  3.234191   3.1043327  1.2801714  1.5709424
+ 2.192062   1.6461558  1.0504677  2.9040647  2.869773   2.733162
+ 1.6502793  0.5779078  1.8997848  2.9385288  1.3901439  0.82828504
+ 0.         2.931549   0.25127393 0.         1.7912587  0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         1.0780915  0.47123265
+ 0.         0.         1.5174861  0.         0.         0.
+ 0.46139646 3.5936625  0.80131626 0.09998648 1.3730841  0.
+ 0.82367706 0.46858978 0.         0.2980861  0.11142682]
+
+   [Global Top 10 Reference Entries for L8-2748]
+   1. A5VN83 (MUTS_BRUO2) - Score: 12.3080 - ...[P][V][R][L][T]P[M][M]E[Q][Y][I][E][I][K]AA[N]VDS... - DNA mismatch repair protein MutS
+   2. A6LNH3 (YIDD_THEM4) - Score: 11.9317 - ...KKII[L][A][L]I[R][F][Y][Q][K][F][I]S[P][L][K][P][P]... - Putative membrane protein insertion efficiency factor
+   3. Q38WL1 (YIDD_LATSS) - Score: 11.8618 - ...RK[I][L][I]A[L][V][R][F][Y][Q][T][G][I][S][P][F][L]P[P]... - Putative membrane protein insertion efficiency factor
+   4. B2ISX1 (YIDD_STRPS) - Score: 11.6931 - ...KRI[L][I][A][L][V][R][F][Y][Q][R][F][I]S[P][V][F][P][P]... - Putative membrane protein insertion efficiency factor
+   5. Q04IT5 (YIDD_STRP2) - Score: 11.6646 - ...KRI[L][I][A][L][V][R][F][Y][Q][R][F][I]S[P][V][F][P][P]... - Putative membrane protein insertion efficiency factor
+   6. C1CTA3 (YIDD_STRZT) - Score: 11.6633 - ...KRI[L][I][A][L][V][R][F][Y][Q][R][F][I]S[P][V][F][P][P]... - Putative membrane protein insertion efficiency factor
+   7. Q8DNJ1 (YIDD_STRR6) - Score: 11.6589 - ...KRI[L][I][A][L][V][R][F][Y][Q][R][F][I]S[P][V][F][P][P]... - Putative membrane protein insertion efficiency factor
+   8. O06994 (O16G1_BACSU) - Score: 11.3102 - ...W[W][K]E[A][V][V][Y][Q][I][Y]PR[S][F][Y]DA[N]GD... - Oligo-1,6-glucosidase 1 (EC 3.2.1.10) (Dextrin 6-alpha-D-glucanohydrolase) (Oligosaccharide alpha-1,6-glucosidase 1) (Sucrase-isomaltase 1) (Isomaltase 1)
+   9. A5G1J3 (PPK1_ACICJ) - Score: 11.1862 - ...[F][I][N][R][E][L][S][W][L]A[F][N][S][R][V]VA[A][A][E][N]... - Polyphosphate kinase (EC 2.7.4.1) (ATP-polyphosphate phosphotransferase) (Polyphosphoric acid kinase)
+   10. C6DAK6 (MUTS_PECCP) - Score: 10.9652 - ...[F][T][A][H][T][P][M][M]QQ[Y][F][R]L[K]A[E][H][P][E]I... - DNA mismatch repair protein MutS
+
+--- Rank #28 ---
+Node: Layer 1, Latent 1522
+Max Activation: 8.1166 (Attribution: 0.0006)
+Peak Location: Trace Idx 36 (AA #36)
+Motif Context: SDPN[W][W]KGACH
+Trace Window : [0.        0.        0.        0.        7.8303275 8.116628  0.
+ 0.        0.        0.        0.       ]
+
+   [Global Top 10 Reference Entries for L1-1522]
+   1. Q6KZP7 (RS4_PICTO) - Score: 9.3096 - ...YGLKNKRELW[R]AQTILTNFRT... - Small ribosomal subunit protein uS4 (30S ribosomal protein S4)
+   2. O28000 (RS4_ARCFU) - Score: 9.2904 - ...YGLRNKRELW[R]FQNILRKYRR... - Small ribosomal subunit protein uS4 (30S ribosomal protein S4)
+   3. Q7NSS4 (LPXK_CHRVO) - Score: 9.2642 - ...EQHW[Y]RPRGW[L]TALLAPLEGL... - Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)
+   4. Q3SZH6 (TTLL9_BOVIN) - Score: 9.2579 - ...MDVLRHRPGW[V]EVKDEGEW[D]F... - Probable tubulin polyglutamylase TTLL9 (EC 6.3.2.-) (Tubulin--tyrosine ligase-like protein 9)
+   5. B3WF63 (TRMB_LACCB) - Score: 9.2558 - ...VRPEKMQGHW[Q]SRFDQARPLY... - tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)
+   6. Q037Y3 (TRMB_LACP3) - Score: 9.2558 - ...VRPEKMQGHW[Q]SRFDQARPLY... - tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)
+   7. Q96LQ0 (PPR36_HUMAN) - Score: 9.2484 - ...LGLRLGMW[Y]W[K]DETRTLEFRR... - Protein phosphatase 1 regulatory subunit 36
+   8. Q21S73 (UBIA_ALBFT) - Score: 9.2388 - ...LIRW[N]RPAGW[L]LLLW[P]TLSAL... - 4-hydroxybenzoate octaprenyltransferase (EC 2.5.1.39) (4-HB polyprenyltransferase)
+   9. A1RWT8 (RS4_THEPD) - Score: 9.2261 - ...YGLRNKRELW[I]AKSLLREIRA... - Small ribosomal subunit protein uS4 (30S ribosomal protein S4)
+   10. O23160 (MYB73_ARATH) - Score: 9.2146 - ...LVQKHGPRNW[S]LISKSIPGRS... - Transcription factor MYB73 (Myb-related protein 73) (AtMYB73)
+
+--- Rank #29 ---
+Node: Layer 9, Latent 2113
+Max Activation: 2.2986 (Attribution: 0.0004)
+Peak Location: Trace Idx 4 (AA #4)
+Motif Context: T[Y][V][Q][A][L][F][D][F]DP[Q][E][D]G[E]L[G]FR[R]G[D]FIHVMDNSDPNWW[K][G]ACHGQT[G]MF[P]RN[D]V[T][P][V][N][R][N][V]
+Trace Window : [0.         0.1426186  0.43895894 2.2985501  0.6984032  1.3178988
+ 1.0765226  1.2458203  1.5842967  0.         0.         1.4229386
+ 0.5541677  1.0956604  0.         0.45247334 0.         0.8010921
+ 0.         0.         0.5477393  0.         0.36768    0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 1.0800898  0.7190538  0.         0.         0.         0.
+ 0.         0.         1.2930815  0.         0.         0.00735265
+ 0.         0.         1.345422   0.         0.5200123  1.5529735
+ 0.48270923 1.0995176  1.2365043  0.84639984 1.3733482 ]
+
+   [Global Top 10 Reference Entries for L9-2113]
+   1. P57381 (MFD_BUCAI) - Score: 8.4557 - ...[I][K][K][N][T][N][N][I][N][K][F][N][L][S][Q][L][I][L][N][H][P]... - Transcription-repair-coupling factor (TRCF) (EC 3.6.4.-)
+   2. Q0SQ50 (AMPA_CLOPS) - Score: 8.3773 - ...[N][I][I][K][K][K][E][Q][F][K][G][S][Y][G][E][I][F][N][I][T][R]... - Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)
+   3. Q8D3J6 (ATPD_WIGBR) - Score: 8.3298 - ...[I][L][N][Q][F][I][N][L][K][N][D][Q][N][N][I][E][N][I][T][I][I]... - ATP synthase subunit delta (ATP synthase F(1) sector subunit delta) (F-type ATPase subunit delta) (F-ATPase subunit delta)
+   4. Q9YW29 (ETF2_MSEPV) - Score: 8.3197 - ...[K][I][Y][D][K][N][I][N][I][N][I][Y][D][D][V][L][Y][V][K][K][L]... - Early transcription factor 82 kDa subunit (ETF large subunit)
+   5. Q03058 (CAT_STRAG) - Score: 8.2937 - ...[N][F][I][S][F][Y][N][N][Y][K][N][D][L][L][E][Y][K][D][K][E][E]... - Chloramphenicol acetyltransferase (CAT) (EC 2.3.1.28)
+   6. P25309 (CAT_STAIN) - Score: 8.2913 - ...[N][F][T][S][F][Y][N][N][Y][K][N][D][L][F][E][Y][K][D][K][E][E]... - Chloramphenicol acetyltransferase (CAT) (EC 2.3.1.28)
+   7. P00486 (CAT2_STAAU) - Score: 8.2735 - ...[N][F][T][S][F][Y][N][N][Y][K][N][D][L][L][E][Y][K][D][K][E][E]... - Chloramphenicol acetyltransferase (CAT) (EC 2.3.1.28)
+   8. P06135 (CAT3_STAAU) - Score: 8.2658 - ...[N][F][T][S][F][Y][N][N][Y][K][N][D][L][F][E][Y][K][D][K][E][E]... - Chloramphenicol acetyltransferase (CAT) (EC 2.3.1.28)
+   9. F0ZDD0 (TPS6_DICPU) - Score: 8.2608 - ...[Y][L][E][K][L][F][K][T][N][K][D][K][S][K][D][K][F][I][K][L][F]... - Terpene synthase 6 (EC 4.2.3.-) (EC 4.2.3.46) (EC 4.2.3.47)
+   10. Q68Y09 (Y827_RICTY) - Score: 8.2432 - ...[V][I][I][N][N][I][P][Y][I][K][L][S][I][T][A][A][P][E][Q][G][K]... - UPF0235 protein RT0827
+
+--- Rank #30 ---
+Node: Layer 10, Latent 3297
+Max Activation: 11.3266 (Attribution: 0.0003)
+Peak Location: Trace Idx 50 (AA #50)
+Motif Context: WWKG[A][C]HGQTG[M]FPR[N][D][V]TPV
+Trace Window : [ 0.         0.         0.         0.         5.258973   5.903107
+  0.         0.         0.         0.         0.         7.229165
+  0.         0.         0.        11.326604   5.6235437  6.168487
+  0.         0.         0.       ]
+
+   [Global Top 10 Reference Entries for L10-3297]
+   1. O79659 (CYB_SYRRE) - Score: 34.1139 - ...[A][P][S][N][I][S][A][W][W][N][F][G][S][L][L][A][V][C][L][T][T]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   2. A6W972 (PAFA_KINRD) - Score: 34.0266 - ...[V][S][W][G][R][S][S][N][V][F][L][K][N][G][A][R][L][Y][L][D][V]... - Pup--protein ligase (EC 6.3.1.19) (Proteasome accessory factor A) (Pup-conjugating enzyme)
+   3. Q7YD75 (CYB_PIPAB) - Score: 33.9585 - ...[A][P][S][N][I][S][A][W][W][N][F][G][S][L][L][G][I][C][L][A][L]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   4. Q34889 (CYB_CALGM) - Score: 33.9126 - ...[A][P][S][N][I][S][A][W][W][N][F][G][S][L][L][A][M][C][L][M][T]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   5. Q36294 (CYB_MYOLE) - Score: 33.7544 - ...[A][P][S][N][I][S][S][W][W][N][F][G][S][L][L][G][I][C][L][A][L]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   6. Q36976 (CYB_APTAU) - Score: 33.7409 - ...[S][P][S][N][I][S][A][W][W][N][F][G][S][L][L][G][I][C][L][I][T]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   7. O20603 (CYB_MYOWA) - Score: 33.6648 - ...[A][P][S][N][I][S][A][W][W][N][F][G][S][L][L][G][M][C][L][M][I]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   8. C7MWV3 (PAFA_SACVD) - Score: 33.4932 - ...[V][S][W][G][R][S][S][N][V][F][L][S][N][G][S][R][L][Y][L][D][V]... - Pup--protein ligase (EC 6.3.1.19) (Proteasome accessory factor A) (Pup-conjugating enzyme)
+   9. Q35380 (CYB_PSEBA) - Score: 33.4775 - ...[A][P][S][N][I][S][A][W][W][N][F][G][S][L][L][G][I][C][L][I][I]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+   10. O03545 (CYB_RHEAM) - Score: 33.4696 - ...[S][P][S][N][I][S][A][W][W][N][F][G][S][L][L][G][I][C][L][I][T]... - Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit)
+
+--- Rank #31 ---
+Node: Layer 3, Latent 3584
+Max Activation: 0.3167 (Attribution: 0.0000)
+Peak Location: Trace Idx 53 (AA #53)
+Motif Context: PRNDV[T]PVNRN
+Trace Window : [0.      0.      0.      0.      0.      0.31665 0.      0.      0.
+ 0.      0.     ]
+
+   [Global Top 10 Reference Entries for L3-3584]
+   1. O34720 (YJGC_BACSU) - Score: 11.6846 - ...KKTITINGVE[M]EASEEQTVLQ... - Probable oxidoreductase YjgC (EC 1.-.-.-)
+   2. Q1MIP3 (RS9_RHIJ3) - Score: 10.3451 - ...SGKITVNGKE[F]AEYFARPVLQ... - Small ribosomal subunit protein uS9 (30S ribosomal protein S9)
+   3. P0AAF3 (ARAG_ECOLI) - Score: 10.2833 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   4. Q1RAN8 (ARAG_ECOUT) - Score: 10.2833 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   5. Q32HC7 (ARAG_SHIDS) - Score: 10.2833 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   6. Q0TGT7 (ARAG_ECOL5) - Score: 10.2833 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   7. P0AAF4 (ARAG_ECOL6) - Score: 10.2823 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   8. P0AAF5 (ARAG_ECO57) - Score: 10.2823 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   9. Q83KP2 (ARAG_SHIFL) - Score: 10.2823 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+   10. Q322L1 (ARAG_SHIBS) - Score: 10.2787 - ...TGSVVIN[G][Q][E][M]SFSDTT[A]ALN... - Arabinose import ATP-binding protein AraG (EC 7.5.2.12)
+
+--- Rank #32 ---
+Node: Layer 10, Latent 1082
+Max Activation: 6.5306 (Attribution: 0.0000)
+Peak Location: Trace Idx 46 (AA #46)
+Motif Context: HGQTG[M]FPRND
+Trace Window : [0.       0.       0.       0.       0.       6.530595 0.       0.
+ 0.       0.       0.      ]
+
+   [Global Top 10 Reference Entries for L10-1082]
+   1. Q8KA39 (FLIM_BUCAP) - Score: 22.4140 - ...[D][N][L][R][E][G][D][V][I][T][I][E][D][P][G][K][V][T][V][C][I]... - Flagellar motor switch protein FliM
+   2. P48849 (RMAR_WICCA) - Score: 20.8755 - ...[K][G][K][N][L][N][T][A][G][I][S][R][S][I][K][D][R][L][L][L][G]... - Small ribosomal subunit protein uS3m (Ribosomal protein VAR1, mitochondrial)
+   3. Q5UR32 (YR556_MIMIV) - Score: 20.4596 - ...[E][K][T][N][N][T][N][V][L][H][Y][I][E][S][H][M]IN[Q][L][F]... - Uncharacterized protein R556
+   4. Q55DF5 (JMJCD_DICDI) - Score: 20.3265 - ...[I][E][L][I][L][N][A][G][E][I][L][Y][I][P][P][T][Y][W][H][F][V]... - JmjC domain-containing protein D (Jumonji domain-containing protein D)
+   5. Q54I66 (Y9399_DICDI) - Score: 20.2492 - ...[V][K][K][V][K][F][F][L][C][S][D][N][Y][L][L][M][S][V][T][K][L]... - Putative uncharacterized protein DDB_G0288973
+   6. Q55FV5 (Y8550_DICDI) - Score: 19.9015 - ...[H]N[N][C][N][L][I][H][M][D][L][K][C][D][N][I][I][L][K]PN... - Probable serine/threonine-protein kinase DDB_G0268550 (EC 2.7.11.1)
+   7. Q97KW7 (PSD2_CLOAB) - Score: 19.8575 - ...[Y][K][N][G][T][C][L][I][F][R][L][T][V][D][D][Y][H]R[Y][C][F]... - Phosphatidylserine decarboxylase proenzyme 2 (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase 2 alpha chain; Phosphatidylserine decarboxylase 2 beta chain]
+   8. Q8D2B9 (DNLJ_WIGBR) - Score: 19.6181 - ...[C][C][E][L][K][I][D][G][L][A][I][N][L][I][Y][K]N[G][I][L][D]... - DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])
+   9. Q8D2W0 (FOLD_WIGBR) - Score: 19.5404 - ...K[L][N][K][N][N][L][I][D][G][I][L][V][Q][L][P][L]PKE[I]... - Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]
+   10. Q8D397 (MNMA_WIGBR) - Score: 19.5227 - ...[A]IK[E][M][Q][A]D[Y][I][A][T][G][H][Y][V]R[K]INF... - tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.13)
+

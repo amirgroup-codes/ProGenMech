@@ -1,0 +1,70 @@
+{
+  "entry": "Q6MPB7",
+  "entry_name": "RL24_BDEBA",
+  "type": "CLM",
+  "prompt": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVE",
+  "k": 32,
+  "original_sequence": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVEAASKEKKTSKKATKSKSA",
+  "original_ll": -2.094804286956787,
+  "original_perplexity": 8.12385082244873,
+  "progen3_sequence": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVEKVKLDKKGKKKTKKKK",
+  "progen3_ll": -1.5568299293518066,
+  "progen3_perplexity": 4.743759632110596,
+  "max_sequence": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVEPVIIDKKNKKKEV",
+  "max_ll": -2.326505184173584,
+  "max_perplexity": 10.242084503173828,
+  "max_kl": 0.26527708768844604,
+  "max_nmse": 0.017983540892601013,
+  "base_sequence": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVEKKAKVKKIKLKLKYK",
+  "base_ll": -2.4664113521575928,
+  "base_perplexity": 11.780097007751465,
+  "base_kl": 0.1971123367547989,
+  "base_nmse": 0.04615090414881706,
+  "recovered_sequence": "MKLKIKKGATVQVITGSDKGKKGTVIAVDANAMKIQVQGVKVQTHYDKKDGLLKKEGFIDYSNVKLVEKVGKVKKKKKKKKK",
+  "recovered_ll": -1.888329267501831,
+  "recovered_perplexity": 6.60831880569458,
+  "recovered_kl": 0.19408127665519714,
+  "recovered_nmse": 0.036656852811574936,
+  "nodes": {
+    "9": [
+      429,
+      458,
+      582,
+      609,
+      833,
+      932,
+      1081,
+      1231,
+      1256,
+      1394,
+      1402,
+      1491,
+      1844,
+      1934,
+      1957,
+      2198,
+      2311,
+      2313,
+      3155,
+      3199,
+      3233,
+      3516,
+      3540,
+      3624,
+      3821,
+      4079,
+      4495
+    ],
+    "0": [
+      4081,
+      4488
+    ],
+    "8": [
+      3054,
+      3648
+    ],
+    "6": [
+      4213
+    ]
+  }
+}

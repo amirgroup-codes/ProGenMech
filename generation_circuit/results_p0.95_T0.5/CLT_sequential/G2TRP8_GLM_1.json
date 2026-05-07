@@ -1,0 +1,80 @@
+{
+  "entry": "G2TRP8",
+  "entry_name": "MZM1_SCHPO",
+  "type": "GLM_1",
+  "prompt": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQSNDTYSLKIRKTTEINTNRQFTEKKFPR[GLM]72-74-2",
+  "k": 32,
+  "original_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQSNDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "original_ll": -3.386929988861084,
+  "original_perplexity": 29.57501792907715,
+  "progen3_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQGMDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "progen3_ll": -2.787998676300049,
+  "progen3_perplexity": 16.24846839904785,
+  "max_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQEADTYSLKIRKTTEINTNRQFTEKKFPR",
+  "max_ll": -2.6624817848205566,
+  "max_perplexity": 14.33181381225586,
+  "max_kl": 0.12324175238609314,
+  "max_nmse": 0.08128661662340164,
+  "base_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQMQDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "base_ll": -3.2001953125,
+  "base_perplexity": 24.537322998046875,
+  "base_kl": 0.2665552496910095,
+  "base_nmse": 0.7014715075492859,
+  "recovered_sequence": "MSAAKQCFRNLWRASNSVFEGDPMILAAARDKIRTGFHNHRCCSPEEAKKEIQNGNAVAEILRRNVVQAEKQLMDTYSLKIRKTTEINTNRQFTEKKFPR",
+  "recovered_ll": -3.1477065086364746,
+  "recovered_perplexity": 23.282604217529297,
+  "recovered_kl": 0.11887095868587494,
+  "recovered_nmse": 0.1034594476222992,
+  "nodes": {
+    "9": [
+      598,
+      745,
+      957,
+      964,
+      967,
+      1184,
+      1320,
+      1491,
+      1579,
+      1844,
+      1957,
+      2488,
+      3050,
+      3199,
+      3382,
+      3540,
+      3624,
+      3779,
+      3802,
+      3821,
+      4544
+    ],
+    "3": [
+      3358
+    ],
+    "2": [
+      1240
+    ],
+    "0": [
+      2031,
+      2722
+    ],
+    "6": [
+      4494
+    ],
+    "8": [
+      2256,
+      2567
+    ],
+    "7": [
+      889,
+      4045
+    ],
+    "4": [
+      2413
+    ],
+    "1": [
+      1263
+    ]
+  }
+}

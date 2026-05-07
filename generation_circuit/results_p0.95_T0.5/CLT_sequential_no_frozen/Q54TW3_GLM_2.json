@@ -1,0 +1,78 @@
+{
+  "entry": "Q54TW3",
+  "entry_name": "RL29_DICDI",
+  "type": "GLM_2",
+  "prompt": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKAAAKK[GLM]88-89-1",
+  "k": 32,
+  "original_sequence": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKAAAKK",
+  "original_ll": -1.6242631673812866,
+  "original_perplexity": 5.074678421020508,
+  "progen3_sequence": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKLAAKK",
+  "progen3_ll": -3.737544536590576,
+  "progen3_perplexity": 41.994747161865234,
+  "max_sequence": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKAAAKK",
+  "max_ll": -1.6242631673812866,
+  "max_perplexity": 5.074678421020508,
+  "max_kl": 1.7807738780975342,
+  "max_nmse": 0.40106523036956787,
+  "base_sequence": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKAAKK",
+  "base_ll": -1.6242631673812866,
+  "base_perplexity": 5.074678421020508,
+  "base_kl": 6.356961250305176,
+  "base_nmse": 5.923523426055908,
+  "recovered_sequence": "MAKSKNHSTHHKNRKDHRNGIKKAVVHKKTSSKGVELGFARNQRYARIGTEIKRYVRGDMQEVKAHKNPRQPLKTIVAAAKAKLAAKKLAAKK",
+  "recovered_ll": -3.737544536590576,
+  "recovered_perplexity": 41.994747161865234,
+  "recovered_kl": 1.44179368019104,
+  "recovered_nmse": 0.5607132315635681,
+  "nodes": {
+    "0": [
+      276,
+      460,
+      1265,
+      1751,
+      2594,
+      2968,
+      2984,
+      2991,
+      3057,
+      3177,
+      3853,
+      3922,
+      4426,
+      4488,
+      4596
+    ],
+    "6": [
+      947
+    ],
+    "9": [
+      1919,
+      3199,
+      3624,
+      3821
+    ],
+    "3": [
+      545,
+      855,
+      3440
+    ],
+    "2": [
+      537,
+      689,
+      3094,
+      3332,
+      3913
+    ],
+    "7": [
+      4055,
+      4076
+    ],
+    "1": [
+      3570
+    ],
+    "4": [
+      917
+    ]
+  }
+}

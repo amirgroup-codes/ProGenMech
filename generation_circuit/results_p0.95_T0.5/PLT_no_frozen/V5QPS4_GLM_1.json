@@ -1,0 +1,74 @@
+{
+  "entry": "V5QPS4",
+  "entry_name": "3098B_MYCTU",
+  "type": "GLM_1",
+  "prompt": "MTATIGFRPTEKDEQIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW[GLM]6-15-9",
+  "k": 32,
+  "original_sequence": "MTATIGFRPTEKDEQIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW",
+  "original_ll": -3.110074996948242,
+  "original_perplexity": 22.422725677490234,
+  "progen3_sequence": "MTATIGNLSIVGAIVIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW",
+  "progen3_ll": -2.63993239402771,
+  "progen3_perplexity": 14.012256622314453,
+  "max_sequence": "MTATIGGERRDDSRRIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW",
+  "max_ll": -2.6582021713256836,
+  "max_perplexity": 14.270610809326172,
+  "max_kl": 0.5951167345046997,
+  "max_nmse": 0.3878343999385834,
+  "base_sequence": "MTATIGRIVVGWMPPIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW",
+  "base_ll": -3.1078710556030273,
+  "base_perplexity": 22.373361587524414,
+  "base_kl": 0.3565310835838318,
+  "base_nmse": 0.1757601648569107,
+  "recovered_sequence": "MTATIGTVSIVTSIVIINAAMRSGERKSDVIRRALQLLEREVWIKQARTDAERLRDEDVSTEPDAW",
+  "recovered_ll": -2.647221088409424,
+  "recovered_perplexity": 14.114760398864746,
+  "recovered_kl": 0.3142783045768738,
+  "recovered_nmse": 0.09490620344877243,
+  "nodes": {
+    "9": [
+      233,
+      255,
+      467,
+      506,
+      729,
+      963,
+      1106,
+      1234,
+      1748,
+      1751,
+      2103,
+      2399,
+      2444,
+      2613,
+      2843,
+      3194,
+      3284,
+      3390,
+      3692,
+      3707,
+      3886,
+      4513,
+      4594
+    ],
+    "0": [
+      218,
+      531,
+      1840,
+      1942
+    ],
+    "4": [
+      1774
+    ],
+    "1": [
+      4124
+    ],
+    "7": [
+      2299
+    ],
+    "8": [
+      3292,
+      3461
+    ]
+  }
+}

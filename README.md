@@ -1,6 +1,6 @@
-# ProGenMech
+# ProGenMech: Circuit Tracing in Autoregressive Protein Language Models
 
-This repository contains tools for discovering and analyzing neural network circuits in protein sequence models.
+This repository contains tools for discovering computational circuits in ProGen3.
 
 ## Main folders
 - `circuit_utils/` — Core CLT/PLT circuit utility code.

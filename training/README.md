@@ -10,5 +10,5 @@ This folder contains training code for the CLT model and associated data modules
 - `run_clt.py` — Main CLT training script.
 
 ## Run
-- `python training/run_clt.py`
+- `cd .. sh train-clt.sh `
 - Update checkpoint and data paths using command-line options.

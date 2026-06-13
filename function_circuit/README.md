@@ -9,5 +9,5 @@ This folder implements function circuit discovery and scoring for CLT/PLT models
 - `function_utils.py` — Shared helper functions for task generation and metrics.
 
 ## Run
-- `python function_circuit/discover_circuits.py`
+- `cd .. sh circuit_discovery.sh`
 - Use the existing `function_circuit/circuits/` folder as the input/output circuit store.

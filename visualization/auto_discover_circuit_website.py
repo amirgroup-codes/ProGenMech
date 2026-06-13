@@ -1233,7 +1233,7 @@ def main():
         output_json = Path(args.output_dir) / f"{args.entry_name}.json"
         output_json.write_text(json.dumps(record, indent=2), encoding="utf-8")
 
-        if args.circuit_json and args.sequences:
+        if args.sequences:
             print("Writing zero-shot sequence-specific website files...")
             top10_ref_path = os.path.join(repo_root, "visualization", "top10_activations.pt")
             ref_storage = load_dataset_reference(top10_ref_path)

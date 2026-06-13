@@ -7,8 +7,6 @@ set -e
 # Usage:
 #   sh circuit_discovery.sh
 
-# export CUDA_VISIBLE_DEVICES=0
-
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 ROOT_DIR="/path/to/project"
 PYTHON_BIN="/path/to/python"

@@ -27,22 +27,6 @@ from function_circuit.prepare_data import sample_csv
 from circuit_utils.plt_circuit import CircuitDiscovererPLT
 from external.progen3.src.progen3.scorer import ProGen3Scorer
 
-# datasets = ['../data/DMS_ProteinGym_substitutions/A4_HUMAN_Seuma_2022.csv',
-#             '../data/DMS_ProteinGym_substitutions/AMFR_HUMAN_Tsuboyama_2023_4G3O.csv',
-#             '../data/DMS_ProteinGym_substitutions/BBC1_YEAST_Tsuboyama_2023_1TG0.csv',
-#             '../data/DMS_ProteinGym_substitutions/CAPSD_AAV2S_Sinai_2021.csv',
-#             '../data/DMS_ProteinGym_substitutions/DLG4_HUMAN_Faure_2021.csv',
-#             '../data/DMS_ProteinGym_substitutions/F7YBW8_MESOW_Ding_2023.csv',
-#             '../data/DMS_ProteinGym_substitutions/GFP_AEQVI_Sarkisyan_2016.csv',
-#             '../data/DMS_ProteinGym_substitutions/GRB2_HUMAN_Faure_2021.csv',
-#             '../data/DMS_ProteinGym_substitutions/HIS7_YEAST_Pokusaeva_2019.csv',
-#             '../data/DMS_ProteinGym_substitutions/RASK_HUMAN_Weng_2022_abundance.csv',
-#             '../data/DMS_ProteinGym_substitutions/SPG1_STRSG_Olson_2014.csv',
-#             '../data/DMS_ProteinGym_substitutions/YAP1_HUMAN_Araya_2012.csv',
-#             '../data/DMS_ProteinGym_substitutions/PTEN_HUMAN_Mighell_2018.csv',
-#             '../data/DMS_ProteinGym_substitutions/BLAT_ECOLX_Stiffler_2015.csv',
-#             '../data/DMS_ProteinGym_substitutions/P53_HUMAN_Kotler_2018.csv']
-
 METHOD_CONFIGS = {
     "clt_direct": {
         "discoverer_key": "clt",

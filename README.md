@@ -1,6 +1,14 @@
 # ProGenMech: Circuit Tracing in Autoregressive Protein Language Models
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="ProGenMech_Logo_Dark.svg">
+    <img alt="ProGenMech Logo" src="ProtoMech_Logo_Light.svg" width="60%">
+  </picture>
+</p>
 
-This repository contains tools for discovering computational circuits in ProGen3.
+This is the official code repository for the paper "Circuit Tracing in Autoregressive Protein Language Models", by Darin Tsui, William Deinzer, Daniel Saeedi, and Amirali Aghazadeh, accepted into the **Mechanistic Interpretability Workshop at ICML 2026**. A link to the paper can be found [here](https://arxiv.org/abs/2602.12026). 
+
+Additionally, one can explore protein circuits through our [web-based visualizer](https://protmech.github.io/)!
 
 ## Main folders
 - `circuit_utils/` — Core CLT/PLT circuit utility code.

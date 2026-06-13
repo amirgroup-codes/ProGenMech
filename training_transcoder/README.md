@@ -8,4 +8,4 @@ This folder contains the PLT training code used for the sequence transcoder mode
 - `run_plt.py` — Main PLT training script.
 
 ## Run
-- `python training_transcoder/run_plt.py`
+- `cd .. sh train-plt.sh`

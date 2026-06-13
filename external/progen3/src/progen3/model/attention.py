@@ -1,3 +1,5 @@
+import os
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -235,7 +237,13 @@ class Attention(nn.Module):
         elif k_len < q_len:
             raise ValueError("k_len must be greater than or equal to q_len")
 
-        with sdpa_kernel(backends=[SDPBackend.FLASH_ATTENTION]):
+        sdpa_backends = [SDPBackend.FLASH_ATTENTION]
+        if torch.cuda.is_available() and torch.cuda.get_device_capability()[0] < 8:
+            sdpa_backends = [SDPBackend.EFFICIENT_ATTENTION, SDPBackend.MATH]
+        elif os.environ.get("PROGEN3_LEGACY_GPU", "").lower() in ("1", "true", "yes"):
+            sdpa_backends = [SDPBackend.EFFICIENT_ATTENTION, SDPBackend.MATH]
+
+        with sdpa_kernel(backends=sdpa_backends):
             attn_output = F.scaled_dot_product_attention(
                 query_states,
                 key_states,

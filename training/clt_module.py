@@ -1,3 +1,5 @@
+import os
+
 import pytorch_lightning as pl
 import torch
 import numpy as np
@@ -8,6 +10,33 @@ from external.progen3.src.progen3.batch_preparer import ProGen3BatchPreparer
 from training.glm_helper import generate_glm_instance
 
 np.random.seed(42)
+
+
+def resolve_progen3_dtype(device=None):
+    """Pick a ProGen3 dtype. Override with PROGEN3_DTYPE if needed.
+
+    Note: megablocks MoE kernels expect bfloat16 weights; float32/float16 are only
+    honored when explicitly requested via PROGEN3_DTYPE.
+    """
+    override = os.environ.get("PROGEN3_DTYPE", "").lower().strip()
+    if override in ("float32", "fp32", "float"):
+        return torch.float32
+    if override in ("bfloat16", "bf16"):
+        return torch.bfloat16
+    if override in ("float16", "fp16"):
+        return torch.float16
+    return torch.bfloat16
+
+
+def needs_legacy_gpu_compat(device=None):
+    """True on GPUs below Ampere (e.g. Colab T4), which lack bf16 Triton kernels."""
+    if os.environ.get("PROGEN3_LEGACY_GPU", "").lower() in ("1", "true", "yes"):
+        return True
+    if not torch.cuda.is_available():
+        return False
+    dev = device if device is not None else torch.device("cuda", torch.cuda.current_device())
+    major, _ = torch.cuda.get_device_capability(dev)
+    return major < 8
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Shape suffixes:
@@ -151,7 +180,8 @@ class CLTLightningModule(pl.LightningModule):
         self.tokenizer = self.batch_preparer.tokenizer
         
         # 3. Initialize & Load Progen3 Model
-        self.progen3_model = ProGen3ForCausalLM.from_pretrained(self.args.model, torch_dtype=torch.bfloat16)
+        progen3_dtype = resolve_progen3_dtype()
+        self.progen3_model = ProGen3ForCausalLM.from_pretrained(self.args.model, torch_dtype=progen3_dtype)
 
         # 4. Freeze Progen3 Model
         self.progen3_model = self.progen3_model.eval()

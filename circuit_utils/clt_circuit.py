@@ -13,7 +13,7 @@ try:
     progen3_src = repo_root / "external" / "progen3" / "src"
     if str(progen3_src) not in sys.path:
         sys.path.insert(0, str(progen3_src))
-    from training.clt_module import CLTLightningModule
+    from training.clt_module import CLTLightningModule, needs_legacy_gpu_compat
 except ImportError:
     try:
         sys.path.append(str(repo_root / "training"))
@@ -57,6 +57,11 @@ class CircuitDiscovererCLT:
             self.pl_module = CLTLightningModule.load_from_checkpoint(self.ckpt_path, map_location=device)
         except Exception as e:
             raise ValueError(f"Could not load CLT from {self.ckpt_path}")
+        if needs_legacy_gpu_compat(device):
+            print(
+                "Legacy GPU detected (e.g. Colab T4): using PyTorch RMSNorm and "
+                "fallback attention kernels instead of bf16 Triton paths."
+            )
         self.pl_module.to(device)
         self.pl_module.eval()
         self.clt = self.pl_module.clt

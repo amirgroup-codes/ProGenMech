@@ -52,6 +52,14 @@ from .model.moe import MOE_CLASSES
 logger = logging.get_logger(__name__)
 
 
+def _legacy_gpu_compat_enabled() -> bool:
+    if os.environ.get("PROGEN3_LEGACY_GPU", "").lower() in ("1", "true", "yes"):
+        return True
+    if torch.cuda.is_available():
+        return torch.cuda.get_device_capability()[0] < 8
+    return False
+
+
 def _update_state_dict(
     state_dict: Mapping[str, Any],
     config: ProGen3Config,
@@ -177,6 +185,11 @@ class RMSNorm(nn.Module):
 
     def forward(self, hidden_states: torch.Tensor):
         input_dtype = hidden_states.dtype
+        if _legacy_gpu_compat_enabled():
+            x = hidden_states.to(torch.float32)
+            variance = x.pow(2).mean(-1, keepdim=True)
+            x = x * torch.rsqrt(variance + self.variance_epsilon)
+            return (self.weight * x).to(input_dtype)
         return self.rms_norm_fn(
             hidden_states,
             self.weight,

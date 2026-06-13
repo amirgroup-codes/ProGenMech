@@ -5,7 +5,7 @@ import numpy as np
 from external.progen3.src.progen3.modeling import ProGen3ForCausalLM
 from external.progen3.src.progen3.batch_preparer import ProGen3BatchPreparer
 from training_transcoder.plt_model import PerLayerTranscoder
-from training.clt_module import ProGen3ActivationCollector, resolve_progen3_dtype, needs_legacy_gpu_compat
+from training.clt_module import ProGen3ActivationCollector
 from training.glm_helper import generate_glm_instance
 
 np.random.seed(42)
@@ -43,8 +43,7 @@ class PLTLightningModule(pl.LightningModule):
         self.tokenizer = self.batch_preparer.tokenizer
 
         # 3. Initialize & Load Progen3 Model
-        progen3_dtype = resolve_progen3_dtype()
-        self.progen3_model = ProGen3ForCausalLM.from_pretrained(self.args.model, torch_dtype=progen3_dtype)
+        self.progen3_model = ProGen3ForCausalLM.from_pretrained(self.args.model, torch_dtype=torch.bfloat16)
 
         # 4. Freeze Progen3 Model
         self.progen3_model = self.progen3_model.eval().to("cuda:0")

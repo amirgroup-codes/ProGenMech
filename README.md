@@ -2,7 +2,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="ProGenMech_Logo_Dark.svg">
-    <img alt="ProGenMech Logo" src="ProtoMech_Logo_Light.svg" width="60%">
+    <img alt="ProGenMech Logo" src="ProGenMech_Logo_Light.svg" width="60%">
   </picture>
 </p>
 

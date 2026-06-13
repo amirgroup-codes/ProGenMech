@@ -16,6 +16,7 @@ sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "external" / "progen3" / "src"))
 
 from training.clt_module import CLTLightningModule
+from circuit_utils.colab_compat import apply_colab_compat
 from local_replacement_models import LocalReplacementModel
 
 BATCH_SIZE = 32
@@ -132,6 +133,8 @@ def main():
         raise FileNotFoundError(f"CLT checkpoint not found: {args.clt_ckpt}")
 
     clt_pl = CLTLightningModule.load_from_checkpoint(args.clt_ckpt, map_location=device)
+    if apply_colab_compat(clt_pl, device):
+        print("Legacy GPU: using eager MoE + PyTorch fallbacks for edge-weight computation.")
     clt_pl.to(device).eval()
     edge_model = LocalReplacementModel(clt_pl, device, base_prompt=full_sequence)
 

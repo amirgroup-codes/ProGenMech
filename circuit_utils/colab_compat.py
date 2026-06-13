@@ -12,6 +12,7 @@ Set PROGEN3_COLAB_COMPAT=0 to disable auto-detection on legacy GPUs.
 from __future__ import annotations
 
 import os
+import sys
 
 import torch
 import torch.nn.functional as F
@@ -30,12 +31,54 @@ def needs_colab_compat(device=None) -> bool:
     return torch.cuda.get_device_capability(dev)[0] < 8
 
 
+def _modeling_modules():
+    """Return all loaded progen3.modeling modules (editable install vs repo path)."""
+    seen = set()
+    modules = []
+    for name, mod in list(sys.modules.items()):
+        if name == "progen3.modeling" or name.endswith(".progen3.modeling"):
+            if id(mod) not in seen:
+                seen.add(id(mod))
+                modules.append(mod)
+    if not modules:
+        for import_path in (
+            "external.progen3.src.progen3.modeling",
+            "progen3.modeling",
+        ):
+            try:
+                mod = __import__(import_path, fromlist=["RMSNorm"])
+                if id(mod) not in seen:
+                    seen.add(id(mod))
+                    modules.append(mod)
+            except ImportError:
+                pass
+    return modules
+
+
+def _attention_modules():
+    seen = set()
+    modules = []
+    for name, mod in list(sys.modules.items()):
+        if name == "progen3.model.attention" or name.endswith(".progen3.model.attention"):
+            if id(mod) not in seen:
+                seen.add(id(mod))
+                modules.append(mod)
+    if not modules:
+        for import_path in (
+            "external.progen3.src.progen3.model.attention",
+            "progen3.model.attention",
+        ):
+            try:
+                mod = __import__(import_path, fromlist=["Attention"])
+                if id(mod) not in seen:
+                    seen.add(id(mod))
+                    modules.append(mod)
+            except ImportError:
+                pass
+    return modules
+
+
 def _patch_rmsnorm() -> None:
-    from external.progen3.src.progen3 import modeling as pg_modeling
-
-    if getattr(pg_modeling.RMSNorm, "_colab_compat_patched", False):
-        return
-
     def pytorch_rmsnorm_forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
         input_dtype = hidden_states.dtype
         x = hidden_states.to(torch.float32)
@@ -43,16 +86,28 @@ def _patch_rmsnorm() -> None:
         x = x * torch.rsqrt(variance + self.variance_epsilon)
         return (self.weight * x).to(input_dtype)
 
-    pg_modeling.RMSNorm.forward = pytorch_rmsnorm_forward
-    pg_modeling.RMSNorm._colab_compat_patched = True
+    for pg_modeling in _modeling_modules():
+        if getattr(pg_modeling.RMSNorm, "_colab_compat_patched", False):
+            continue
+        pg_modeling.RMSNorm.forward = pytorch_rmsnorm_forward
+        pg_modeling.RMSNorm._colab_compat_patched = True
 
 
 def _patch_attention() -> None:
-    from external.progen3.src.progen3.model import attention as pg_attention
-    from external.progen3.src.progen3.model.attention import causal_lower_right, repeat_kv
-
-    if getattr(pg_attention.Attention, "_colab_compat_patched", False):
-        return
+    causal_lower_right = repeat_kv = None
+    for import_path in (
+        "external.progen3.src.progen3.model.attention",
+        "progen3.model.attention",
+    ):
+        try:
+            mod = __import__(import_path, fromlist=["causal_lower_right", "repeat_kv"])
+            causal_lower_right = mod.causal_lower_right
+            repeat_kv = mod.repeat_kv
+            break
+        except ImportError:
+            continue
+    if causal_lower_right is None or repeat_kv is None:
+        raise ImportError("Could not import progen3 attention utils for colab compat")
 
     def _sdpa_attn_compat(
         self, query_states: torch.Tensor, key_states: torch.Tensor, val_states: torch.Tensor
@@ -86,8 +141,20 @@ def _patch_attention() -> None:
         attn_output = attn_output.reshape(bsz, q_len, self.hidden_size)
         return attn_output, None
 
-    pg_attention.Attention._sdpa_attn = _sdpa_attn_compat
-    pg_attention.Attention._colab_compat_patched = True
+    for pg_attention in _attention_modules():
+        if getattr(pg_attention.Attention, "_colab_compat_patched", False):
+            continue
+        pg_attention.Attention._sdpa_attn = _sdpa_attn_compat
+        pg_attention.Attention._colab_compat_patched = True
+
+
+def load_clt_pl_module(ckpt_path, device):
+    """Load CLTLightningModule and apply Colab/legacy-GPU compat when needed."""
+    from training.clt_module import CLTLightningModule
+
+    pl_module = CLTLightningModule.load_from_checkpoint(ckpt_path, map_location=device)
+    apply_colab_compat(pl_module, device)
+    return pl_module
 
 
 def megablocks_to_eager_state_dict(state_dict: dict, config) -> dict:

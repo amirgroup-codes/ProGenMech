@@ -10,7 +10,17 @@ This is the official code repository for the paper "Circuit Tracing in Autoregre
 
 Additionally, one can explore protein circuits through our [web-based visualizer](https://protmech.github.io/)!
 
-## Main folders
+## Quick Start
+
+The easiest way to get started with ProtoMech is through our interactive [Google Colab notebook](https://colab.research.google.com/github/amirgroup-codes/ProGenMech/blob/main/ProGenMech.ipynb). No local installation is required.
+
+### Workflow 
+
+1. **Models**: ProGenMech currently supports ProGen3-Small!
+2. **Circuit Discovery** (optional): Identify circuits in either generation or zero-shot.
+3. **Interactive Visualization**: Generate files required for our [website](https://protmech.github.io/) and visualize circuits!
+
+## Main Folders
 - `circuit_utils/` — Core CLT/PLT circuit utility code.
 - `function_circuit/` — Function circuit discovery and circuit JSON outputs.
 - `generation_circuit/` — Generation tasks and discovery workflows.

@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-This is the official code repository for the paper "Circuit Tracing in Autoregressive Protein Language Models", by Darin Tsui, William Deinzer, Daniel Saeedi, and Amirali Aghazadeh, accepted into the **Mechanistic Interpretability Workshop at ICML 2026**. A link to the paper can be found [here](https://arxiv.org/abs/2602.12026). 
+This is the official code repository for the paper "Circuit Tracing in Autoregressive Protein Language Models", by Darin Tsui, William Deinzer, Daniel Saeedi, and Amirali Aghazadeh, accepted into the **Mechanistic Interpretability Workshop at ICML 2026**. A link to the paper can be found [here](https://arxiv.org/abs/2606.16044). 
 
 Additionally, one can explore protein circuits through our [web-based visualizer](https://protmech.github.io/)!
 
@@ -17,7 +17,7 @@ The easiest way to get started with ProtoMech is through our interactive [Google
 ### Workflow 
 
 1. **Models**: ProGenMech currently supports ProGen3-Small!
-2. **Circuit Discovery** (optional): Identify circuits in either generation or zero-shot.
+2. **Circuit Discovery**: Identify circuits in either generation or zero-shot.
 3. **Interactive Visualization**: Generate files required for our [website](https://protmech.github.io/) and visualize circuits!
 
 ## Main Folders
@@ -37,3 +37,9 @@ The easiest way to get started with ProtoMech is through our interactive [Google
 - Run generation analysis: `sh generation_circuit/main.sh`
 - Run steering: `sh steering/main_steering.sh`
 - Use visualization scripts from `visualization/`, e.g. `python visualization/get_edge_weights.py`
+
+## Previous Data
+
+You can find the models at [https://huggingface.co/darintsui/ProGenMechModels](https://huggingface.co/darintsui/ProGenMechModels  ) and the data used in this paper at [https://huggingface.co/datasets/darintsui/ProGenMechData](https://huggingface.co/datasets/darintsui/ProGenMechData). 
+
+For training sequences and other data not listed above, we utilize data released from ProtoMech at [https://huggingface.co/datasets/ktalreja/ProtoMechData](https://huggingface.co/datasets/ktalreja/ProtoMechData).
